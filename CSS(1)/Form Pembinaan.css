@@ -86,6 +86,11 @@
   position: absolute;
   left: calc(50% - 138px);
   top: 248px;
+  padding-left: 16px;
+   padding-right: 16px;
+   padding-top: 12px;
+   padding-bottom: 15px;
+   font: 700 13px 'Lora-Bold', sans-serif;
 }
 .group-2630 {
   width: 296px;
@@ -113,7 +118,9 @@
   position: absolute;
   left: calc(50% - 138px);
   top: 310px;
+
 }
+
 .group-2631 {
   width: 84px;
   height: 22px;
