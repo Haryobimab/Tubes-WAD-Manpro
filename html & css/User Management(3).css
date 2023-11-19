@@ -1,0 +1,428 @@
+.user-management,
+.user-management * {
+  box-sizing: border-box;
+}
+.user-management {
+  background: #ffffff;
+  width: 360px;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-1492 {
+  background: #7bc74d;
+  width: 360px;
+  height: 800px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.subtract {
+  width: 325px;
+  height: 100px;
+  position: absolute;
+  left: 17px;
+  top: 31px;
+  overflow: visible;
+}
+.group-18 {
+  position: absolute;
+  inset: 0;
+}
+.ellipse-4 {
+  border-radius: 50%;
+  width: 64.52px;
+  height: 62.88px;
+  position: absolute;
+  left: 31px;
+  top: 43px;
+}
+.admin {
+  text-align: left;
+  font: 600 12px "Inter-SemiBold", sans-serif;
+  position: absolute;
+  left: 29px;
+  top: 109px;
+}
+.vector {
+  height: auto;
+  position: absolute;
+  right: 93.06%;
+  left: 2.5%;
+  width: 4.44%;
+  bottom: 96.12%;
+  top: 1.88%;
+  height: 2%;
+  overflow: visible;
+}
+._24-x-7-access {
+  color: #0047ff;
+  text-align: left;
+  font: 400 11px "Inter-Regular", sans-serif;
+  position: absolute;
+  left: 263px;
+  top: 106px;
+}
+.rectangle-1490 {
+  background: #ffffff;
+  border-radius: 20px 20px 0px 0px;
+  width: 360px;
+  height: 579px;
+  position: absolute;
+  left: calc(50% - 180px);
+  top: 221px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.mr-irsyadul-basyar {
+  color: #000000;
+  text-align: center;
+  font: 700 20px/21px "Nunito-Bold", sans-serif;
+  position: absolute;
+  left: 55px;
+  top: 64px;
+  width: 290px;
+  height: 22px;
+}
+.group-2627 {
+  position: absolute;
+  inset: 0;
+}
+.group-2617 {
+  width: 333px;
+  height: 69px;
+  position: static;
+}
+.rectangle-23 {
+  background: #ffffff;
+  border-radius: 4px;
+  width: 333px;
+  height: 69px;
+  position: absolute;
+  left: calc(50% - 167px);
+  top: 260px;
+  box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.2);
+}
+.ellipse-8 {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 24px;
+  top: 273px;
+}
+.rectangle-1501 {
+  background: #7bc74d;
+  border-radius: 5px;
+  width: 95px;
+  height: 27px;
+  position: absolute;
+  left: calc(50% - -55px);
+  top: 284px;
+}
+.hapus {
+  color: #ffffff;
+  text-align: center;
+  font: 700 14px "Lora-Bold", sans-serif;
+  position: absolute;
+  left: 261px;
+  top: 289px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.beni-adam {
+  color: #000000;
+  text-align: center;
+  font: 700 10px "Inter-Bold", sans-serif;
+  position: absolute;
+  left: calc(50% - 120px);
+  bottom: 60.25%;
+  top: 36.62%;
+  height: 3.12%;
+  width: 100px;
+}
+.musang-salto-23-gmail-com {
+  color: #393e46;
+  text-align: center;
+  font: 700 5px "Inter-Bold", sans-serif;
+  text-decoration: underline;
+  position: absolute;
+  left: 83px;
+  top: 308px;
+}
+.group-2626 {
+  position: absolute;
+  inset: 0;
+}
+.group-2618 {
+  width: 333px;
+  height: 69px;
+  position: static;
+}
+.rectangle-15012 {
+  background: #ffffff;
+  border-radius: 4px;
+  width: 333px;
+  height: 69px;
+  position: absolute;
+  left: calc(50% - 167px);
+  top: 360px;
+  box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.2);
+}
+.ellipse-9 {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 24px;
+  top: 373px;
+}
+.rectangle-1502 {
+  background: #7bc74d;
+  border-radius: 5px;
+  width: 95px;
+  height: 27px;
+  position: absolute;
+  left: calc(50% - -55px);
+  top: 384px;
+}
+.hapus2 {
+  color: #ffffff;
+  text-align: center;
+  font: 700 14px "Lora-Bold", sans-serif;
+  position: absolute;
+  left: 261px;
+  top: 389px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.muflikhun-al-azis {
+  color: #000000;
+  text-align: center;
+  font: 700 10px "Inter-Bold", sans-serif;
+  position: absolute;
+  left: calc(50% - 102px);
+  bottom: 47.62%;
+  top: 49.25%;
+  height: 3.12%;
+  width: 100px;
+}
+.kunti-boghel-73-gmail-com {
+  color: #393e46;
+  text-align: center;
+  font: 700 5px "Inter-Bold", sans-serif;
+  text-decoration: underline;
+  position: absolute;
+  left: 84px;
+  top: 407px;
+}
+.group-2625 {
+  position: absolute;
+  inset: 0;
+}
+.group-2619 {
+  width: 333px;
+  height: 69px;
+  position: static;
+}
+.rectangle-15013 {
+  background: #ffffff;
+  border-radius: 4px;
+  width: 333px;
+  height: 69px;
+  position: absolute;
+  left: calc(50% - 167px);
+  top: 460px;
+  box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.2);
+}
+.ellipse-92 {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 24px;
+  top: 473px;
+}
+.rectangle-1503 {
+  background: #7bc74d;
+  border-radius: 5px;
+  width: 95px;
+  height: 27px;
+  position: absolute;
+  left: calc(50% - -55px);
+  top: 484px;
+}
+.hapus3 {
+  color: #ffffff;
+  text-align: center;
+  font: 700 14px "Lora-Bold", sans-serif;
+  position: absolute;
+  left: 261px;
+  top: 487px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.abdul-qodir {
+  color: #000000;
+  text-align: center;
+  font: 700 10px "Inter-Bold", sans-serif;
+  position: absolute;
+  left: calc(50% - 117px);
+  bottom: 35.5%;
+  top: 61.38%;
+  height: 3.12%;
+  width: 100px;
+}
+.abdulbathuk-69-gmail-com {
+  color: #393e46;
+  text-align: center;
+  font: 700 5px "Inter-Bold", sans-serif;
+  text-decoration: underline;
+  position: absolute;
+  left: 84px;
+  top: 505px;
+}
+.group-2623 {
+  position: absolute;
+  inset: 0;
+}
+.group-2621 {
+  width: 333px;
+  height: 69px;
+  position: static;
+}
+.rectangle-15014 {
+  background: #ffffff;
+  border-radius: 4px;
+  width: 333px;
+  height: 69px;
+  position: absolute;
+  left: calc(50% - 167px);
+  top: 660px;
+  box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.2);
+}
+.ellipse-93 {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 24px;
+  top: 673px;
+}
+.rectangle-1505 {
+  background: #7bc74d;
+  border-radius: 5px;
+  width: 95px;
+  height: 27px;
+  position: absolute;
+  left: calc(50% - -55px);
+  top: 684px;
+}
+.hapus4 {
+  color: #ffffff;
+  text-align: center;
+  font: 700 14px "Lora-Bold", sans-serif;
+  position: absolute;
+  left: 261px;
+  top: 689px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jono-sutrisna {
+  color: #000000;
+  text-align: center;
+  font: 700 10px "Inter-Bold", sans-serif;
+  position: absolute;
+  left: calc(50% - 112px);
+  bottom: 10.25%;
+  top: 86.62%;
+  height: 3.12%;
+  width: 100px;
+}
+.vendorwifibapuk-123-gmail-com {
+  color: #393e46;
+  text-align: center;
+  font: 700 5px "Inter-Bold", sans-serif;
+  text-decoration: underline;
+  position: absolute;
+  left: 84px;
+  top: 708px;
+}
+.group-2624 {
+  position: absolute;
+  inset: 0;
+}
+.group-2620 {
+  width: 333px;
+  height: 69px;
+  position: static;
+}
+.rectangle-15015 {
+  background: #ffffff;
+  border-radius: 4px;
+  width: 333px;
+  height: 69px;
+  position: absolute;
+  left: calc(50% - 167px);
+  top: 560px;
+  box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.2);
+}
+.ellipse-94 {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 24px;
+  top: 573px;
+}
+.rectangle-1504 {
+  background: #7bc74d;
+  border-radius: 5px;
+  width: 95px;
+  height: 27px;
+  position: absolute;
+  left: calc(50% - -55px);
+  top: 584px;
+}
+.hapus5 {
+  color: #ffffff;
+  text-align: center;
+  font: 700 14px "Lora-Bold", sans-serif;
+  position: absolute;
+  left: 261px;
+  top: 589px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ahmad-supratdi {
+  color: #000000;
+  text-align: center;
+  font: 700 10px "Inter-Bold", sans-serif;
+  position: absolute;
+  left: calc(50% - 106px);
+  bottom: 23.12%;
+  top: 73.75%;
+  height: 3.12%;
+  width: 100px;
+}
+.gwejsepuh-245-gmail-com {
+  color: #393e46;
+  text-align: center;
+  font: 700 5px "Inter-Bold", sans-serif;
+  position: absolute;
+  left: 84px;
+  top: 604px;
+}
+.gwejsepuh-245-gmail-com-span {
+  color: #393e46;
+  font: 700 5px "Inter-Bold", sans-serif;
+}
+.gwejsepuh-245-gmail-com-span2 {
+  color: #393e46;
+  font: 700 5px "Inter-Bold", sans-serif;
+  text-decoration: underline;
+}
