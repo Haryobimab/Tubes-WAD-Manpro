@@ -1,0 +1,182 @@
+.data-recapitulation, .data-recapitulation * {
+    box-sizing: border-box;
+    }
+.data-recapitulation {
+   background: #ffffff;
+   width: 360px;
+    height: 800px;
+   
+           position: relative;
+   
+       overflow: hidden;
+   }
+
+.rectangle-189 {
+   background: #f8ffdb;
+   width: 360px;
+    height: 120px;
+   
+           position: absolute;
+    left: 0px;
+   top: 0px;
+   
+       }
+
+.rectangle-190 {
+   background: #7bc74d;
+   width: 360px;
+    height: 95px;
+   
+           position: absolute;
+    left: 0px;
+   top: 0px;
+   
+       }
+
+.vector {
+   height: auto;
+   
+           position: absolute;
+    right: 91.39%;
+    left: 4.17%;
+    width: 4.44%;
+   bottom: 93.38%;
+    top: 4.62%;
+    height: 2%;
+   
+       overflow: visible;
+   }
+
+.data-rekap {
+   color: #ffffff;
+   text-align: center;
+   font: 700 20px 'Inter-Bold', sans-serif;
+   
+           position: absolute;
+    left: calc(50% - 78px);
+   bottom: 92.38%;
+    top: 4.25%;
+    height: 3.38%;
+   
+       width: 157px;
+   }
+
+.rectangle-1486 {
+   background: #ffffff;
+   border-radius: 5px;
+   width: 300px;
+    height: 379px;
+   
+           position: absolute;
+    left: calc(50% - 147px);
+   top: 147px;
+   
+       box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   }
+
+.rectangle-1487 {
+   background: #ffffff;
+   border-radius: 5px;
+   width: 300px;
+    height: 144px;
+   
+           position: absolute;
+    left: 33px;
+   top: 577px;
+   
+       box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   }
+
+.keterangan {
+   color: #000000;
+   text-align: left;
+   font: 400 12px 'Inter-Regular', sans-serif;
+   
+           position: absolute;
+    left: 52px;
+   top: 591px;
+   
+       }
+
+.ellipse-13 {
+   background: #3f9b6f;
+   border-radius: 50%;
+   width: 238px;
+    height: 238px;
+   
+           position: absolute;
+    left: calc(50% - 119px);
+   top: 166px;
+   
+       }
+
+.ellipse-14 {
+   background: #dfff1a;
+   border-radius: 50%;
+   width: 238px;
+    height: 238px;
+   
+           position: absolute;
+    left: calc(50% - 119px);
+   top: 166px;
+   
+       }
+
+.ellipse-16 {
+   width: 16px;
+    height: 16px;
+   
+           position: absolute;
+    left: 58px;
+   top: 434px;
+   
+       overflow: visible;
+   }
+
+.ellipse-17 {
+   width: 16px;
+    height: 16px;
+   
+           position: absolute;
+    left: 58px;
+   top: 475px;
+   
+       overflow: visible;
+   }
+
+.performa-mahasiswa-yang-memenuhi-standar {
+   color: #000000;
+   text-align: justified;
+   font: 400 11px 'Inter-Regular', sans-serif;
+   
+           position: absolute;
+    left: 84px;
+   top: 430px;
+   
+       width: 141px;
+   }
+
+.performa-mahasiswa-yang-tidak-memenuhi-standar {
+   color: #000000;
+   text-align: justified;
+   font: 400 11px 'Inter-Regular', sans-serif;
+   
+           position: absolute;
+    left: 84px;
+   top: 471px;
+   
+       width: 141px;
+   }
+
+.untuk-mahasiswa-yang-performa-nya-tidak-memenuhi-standar-dikarenakan {
+   color: #000000;
+   text-align: center;
+   font: 400 11px 'Inter-Regular', sans-serif;
+   
+           position: absolute;
+    left: 67px;
+   top: 634px;
+   
+       width: 225px;
+   }
+
