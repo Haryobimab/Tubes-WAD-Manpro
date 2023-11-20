@@ -32,17 +32,18 @@
   <div class="group-2632">
     <div class="rectangle-1508"></div>
     <div class="group-2629">
+    <form action="../controller/formpembinaancontroller.php" method="post">
       <div class="judul">Judul</div>
-      <input class="rectangle-1506">
+      <input name='judul' class="rectangle-1506">
     </div>
     <div class="group-2630">
       <div class="konten-pembinaan">Konten Pembinaan</div>
-      <textarea type="text" class="rectangle-15062"> </textarea>
+      <textarea name="kontenpembinaan" type="text" class="rectangle-15062"> </textarea>
     </div>
     <div class="group-2631">
-      <input type="submit" value="" class="rectangle-1509"> 
-      <div class="simpan">Simpan</div>
+      <input type="submit" value="Simpan" class="rectangle-1509"> 
     </div>
+  </form>
   </div>
 </div>
 
