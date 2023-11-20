@@ -1,0 +1,249 @@
+.best-of-the-month,
+.best-of-the-month * {
+  box-sizing: border-box;
+}
+.best-of-the-month {
+  background: #ffffff;
+  width: 360px;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-190 {
+  background: #7bc74d;
+  width: 360px;
+  height: 576px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.leaderboard {
+  color: #ffffff;
+  text-align: center;
+  font: 700 italic 16px "Inter-BoldItalic", sans-serif;
+  position: absolute;
+  left: calc(50% - 92px);
+  bottom: 94.25%;
+  top: 2.38%;
+  height: 3.38%;
+  width: 185px;
+}
+.top-residents {
+  color: #ffffff;
+  text-align: center;
+  font: 600 24px "Inter-SemiBold", sans-serif;
+  position: absolute;
+  left: calc(50% - 120px);
+  bottom: 85.75%;
+  top: 10.5%;
+  height: 3.75%;
+  width: 240px;
+}
+.of-the-month {
+  color: #ffffff;
+  text-align: center;
+  font: 300 italic 20px "Inter-LightItalic", sans-serif;
+  position: absolute;
+  left: calc(50% - 90px);
+  bottom: 82.75%;
+  top: 14.12%;
+  height: 3.12%;
+  width: 180px;
+}
+.agus-supratman {
+  color: #ffffff;
+  text-align: center;
+  font: 700 10px "Inter-Bold", sans-serif;
+  position: absolute;
+  left: calc(50% - 158px);
+  bottom: 59.13%;
+  top: 37.75%;
+  height: 3.12%;
+  width: 100px;
+}
+.beni-adam {
+  color: #ffffff;
+  text-align: center;
+  font: 700 10px "Inter-Bold", sans-serif;
+  position: absolute;
+  left: calc(50% - 49px);
+  bottom: 59.13%;
+  top: 37.75%;
+  height: 3.12%;
+  width: 100px;
+}
+.beni-adam2 {
+  color: #000000;
+  text-align: center;
+  font: 700 10px "Inter-Bold", sans-serif;
+  position: absolute;
+  left: calc(50% - 73px);
+  bottom: 40.75%;
+  top: 56.12%;
+  height: 3.12%;
+  width: 100px;
+}
+.abdul-qodir {
+  color: #ffffff;
+  text-align: center;
+  font: 700 10px "Inter-Bold", sans-serif;
+  position: absolute;
+  left: calc(50% - -60px);
+  bottom: 59.13%;
+  top: 37.75%;
+  height: 3.12%;
+  width: 100px;
+}
+.rectangle-1490 {
+  background: #ffffff;
+  border-radius: 20px 20px 0px 0px;
+  width: 360px;
+  height: 400px;
+  position: absolute;
+  left: 0px;
+  top: 400px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.vector {
+  height: auto;
+  position: absolute;
+  right: 91.67%;
+  left: 3.89%;
+  width: 4.44%;
+  bottom: 95.62%;
+  top: 2.38%;
+  height: 2%;
+  overflow: visible;
+}
+.ellipse-6 {
+  border-radius: 50%;
+  width: 100px;
+  height: 96px;
+  position: absolute;
+  left: calc(50% - 49px);
+  top: 187px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.ellipse-7 {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  left: 252px;
+  top: 208px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.ellipse-5 {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  left: 32px;
+  top: 208px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.ellipse-8 {
+  border-radius: 50%;
+  width: 66px;
+  height: 63px;
+  position: absolute;
+  left: 21px;
+  top: 427px;
+}
+.ellipse-9 {
+  border-radius: 50%;
+  width: 66px;
+  height: 63px;
+  position: absolute;
+  left: 21px;
+  top: 521px;
+}
+.ellipse-10 {
+  border-radius: 50%;
+  width: 66px;
+  height: 63px;
+  position: absolute;
+  left: 21px;
+  top: 615px;
+}
+.ellipse-11 {
+  border-radius: 50%;
+  width: 66px;
+  height: 63px;
+  position: absolute;
+  left: 21px;
+  top: 709px;
+}
+.adit-pringles {
+  color: #000000;
+  text-align: center;
+  font: 700 10px "Inter-Bold", sans-serif;
+  position: absolute;
+  left: calc(50% - 88px);
+  bottom: 40.38%;
+  top: 56.5%;
+  height: 3.12%;
+  width: 100px;
+}
+.saleh-swallow {
+  color: #000000;
+  text-align: center;
+  font: 700 10px "Inter-Bold", sans-serif;
+  position: absolute;
+  left: calc(50% - 88px);
+  bottom: 28.88%;
+  top: 68%;
+  height: 3.12%;
+  width: 100px;
+}
+.zul-vixol {
+  color: #000000;
+  text-align: center;
+  font: 700 10px "Inter-Bold", sans-serif;
+  position: absolute;
+  left: calc(50% - 88px);
+  bottom: 17.25%;
+  top: 79.62%;
+  height: 3.12%;
+  width: 100px;
+}
+.zaenah-putri-northen-vale {
+  color: #000000;
+  text-align: center;
+  font: 700 10px "Inter-Bold", sans-serif;
+  position: absolute;
+  left: calc(50% - 83px);
+  bottom: 5.88%;
+  top: 91%;
+  height: 3.12%;
+  width: 90px;
+}
+.group-2606 {
+  height: auto;
+  position: absolute;
+  left: 224px;
+  top: 447px;
+  overflow: visible;
+}
+.group-2607 {
+  height: auto;
+  position: absolute;
+  left: 248px;
+  top: 542px;
+  overflow: visible;
+}
+.group-2608 {
+  height: auto;
+  position: absolute;
+  left: 272px;
+  top: 635px;
+  overflow: visible;
+}
+.group-2609 {
+  height: auto;
+  position: absolute;
+  left: 293px;
+  top: 726px;
+  overflow: visible;
+}
