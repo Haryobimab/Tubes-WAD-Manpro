@@ -1,0 +1,191 @@
+.form-mingguan, .form-mingguan * {
+    box-sizing: border-box;
+    }
+.form-mingguan {
+   background: #ffffff;
+   width: 360px;
+    height: 800px;
+   
+           position: relative;
+   
+       overflow: hidden;
+   }
+
+.rectangle-189 {
+   background: #f8ffdb;
+   width: 360px;
+    height: 120px;
+   
+           position: absolute;
+    left: 0px;
+   top: 0px;
+   
+       }
+
+.rectangle-190 {
+   background: #7bc74d;
+   width: 360px;
+    height: 95px;
+   
+           position: absolute;
+    left: 0px;
+   top: 0px;
+   
+       }
+
+.vector {
+   height: auto;
+   
+           position: absolute;
+    right: 91.39%;
+    left: 4.17%;
+    width: 4.44%;
+   bottom: 93.38%;
+    top: 4.62%;
+    height: 2%;
+   
+       overflow: visible;
+   }
+
+.form-mingguan2 {
+   color: #ffffff;
+   text-align: left;
+   font: 700 20px 'Inter-Bold', sans-serif;
+   
+           position: absolute;
+    left: calc(50% - 78px);
+   bottom: 92.38%;
+    top: 4.25%;
+    height: 3.38%;
+   
+       width: 157px;
+   }
+
+.rectangle-1480 {
+   background: #f9f9f9;
+   border-radius: 10px;
+   width: 310px;
+    height: 99px;
+   
+           position: absolute;
+    left: calc(50% - 155px);
+   top: 142px;
+   
+       box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   }
+
+.catat-aktivitas-telepon-ortu {
+   color: #000000;
+   text-align: left;
+   font: 700 12px 'Inter-Bold', sans-serif;
+   
+           position: absolute;
+    left: calc(50% - 137px);
+   top: 161px;
+   
+       width: 192px;
+    height: 13px;
+   }
+
+.rectangle-23 {
+   background: #ffffff;
+   border-radius: 5px;
+   width: 268px;
+    height: 34px;
+    padding-left: 16px;
+   padding-right: 16px;
+   padding-top: 12px;
+   padding-bottom: 15px;
+   font: 700 13px 'Lora-Bold', sans-serif;
+   
+           position: absolute;
+    left: calc(50% - 139px);
+   top: 186px;
+   
+       box-shadow:  1px 1px 7px 0px rgba(0, 0, 0, 0.20);
+   }
+
+.rectangle-1481 {
+   background: #f9f9f9;
+   border-radius: 10px;
+   width: 310px;
+    height: 99px;
+   
+           position: absolute;
+    left: calc(50% - 155px);
+   top: 278px;
+   
+       box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   }
+
+.catat-aktivitas-setor-hafalan {
+   color: #000000;
+   text-align: left;
+   font: 700 12px 'Inter-Bold', sans-serif;
+   
+           position: absolute;
+    left: calc(50% - 137px);
+   top: 297px;
+   
+       width: 192px;
+    height: 13px;
+   }
+
+.rectangle-1482 {
+   background: #ffffff;
+   border-radius: 5px;
+   width: 268px;
+    height: 34px;
+    padding-left: 16px;
+   padding-right: 16px;
+   padding-top: 12px;
+   padding-bottom: 15px;
+   font: 700 13px 'Lora-Bold', sans-serif;
+   
+           position: absolute;
+    left: calc(50% - 139px);
+   top: 322px;
+   
+       box-shadow:  1px 1px 7px 0px rgba(0, 0, 0, 0.20);
+   }
+
+.berikutnya {
+   color: #ffffff;
+   text-align: center;
+   font: 700 14px 'Lora-Bold', sans-serif;
+   
+           position: absolute;
+    left: 243px;
+   top: 721px;
+   
+       display: flex;
+   
+align-items: center;
+   justify-content: center}
+
+.rectangle-1485 {
+   background: #7bc74d;
+   border-radius: 5px;
+   width: 119px;
+    height: 32px;
+   
+           position: absolute;
+    left: calc(50% - 60px);
+   top: 707px;
+   
+       }
+
+.simpan {
+   color: #ffffff;
+   text-align: center;
+   font: 700 14px 'Lora-Bold', sans-serif;
+   
+           position: absolute;
+    left: 154px;
+   top: 714px;
+   
+       display: flex;
+   
+align-items: center;
+   justify-content: center}
+
