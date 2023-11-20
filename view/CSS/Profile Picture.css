@@ -9,38 +9,28 @@
   position: relative;
   overflow: hidden;
 }
-.rectangle-1494 {
-  width: 360px;
-  height: 227px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-.ellipse-4 {
-  border-radius: 50%;
-  width: 133px;
-  height: 133px;
-  position: absolute;
-  right: 19px;
-  top: 128px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-.rectangle-1495 {
+.rectangle-1485 {
   background: #7bc74d;
   border-radius: 5px;
-  width: 171px;
-  height: 33px;
+  width: 111px;
+  height: 32px;
   position: absolute;
-  left: 9px;
-  top: 181px;
-}
-.irsyadul-basyar {
+  left: calc(50% - 55px);
+  top: 733px;
   color: #ffffff;
   text-align: center;
-  font: 700 16px/21px "Nunito-Bold", sans-serif;
+  font: 600 14px/19px "Nunito-Bold", sans-serif;
+}
+.kembali {
+  color: #ffffff;
+  text-align: center;
+  font: 700 14px "Lora-Bold", sans-serif;
   position: absolute;
-  left: 40px;
-  top: 187px;
+  left: calc(50% - 27px);
+  top: 740px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .rectangle-1496 {
   background: #eeeeee;
@@ -52,69 +42,30 @@
   top: 299px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-.informasi-personal {
-  color: #000000;
-  text-align: center;
-  font: 700 16px/21px "Nunito-Bold", sans-serif;
-  position: absolute;
-  left: 45px;
-  top: 317px;
-}
-.group-23 {
-  position: absolute;
-  inset: 0;
-}
-.rectangle-1497 {
-  background: #f6f6f6;
-  border-radius: 8px;
-  width: 270px;
-  height: 37px;
-  position: absolute;
-  left: calc(50% - 135px);
-  top: 377px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-.nama-lengkap {
-  color: #7bc74d;
-  text-align: left;
-  font: 500 12px "Inter-Medium", sans-serif;
-  position: absolute;
-  right: 61.11%;
-  left: 13.33%;
-  width: 25.56%;
-  bottom: 53.37%;
-  top: 44.75%;
-  height: 1.88%;
-}
-.group-22 {
-  position: absolute;
-  inset: 0;
-}
 .rectangle-1498 {
   background: #f6f6f6;
   border-radius: 8px;
   width: 270px;
-  height: 37px;
+  height: 64px;
   position: absolute;
   left: calc(50% - 135px);
-  top: 444px;
+  top: 578px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  text-align: center;
+  font: 600 14px/19px "Nunito-Bold", sans-serif;
 }
-.email {
+.alamat {
   color: #7bc74d;
   text-align: left;
   font: 500 12px "Inter-Medium", sans-serif;
   position: absolute;
-  right: 76.39%;
+  right: 73.61%;
   left: 13.33%;
-  width: 10.28%;
-  bottom: 44.5%;
-  top: 53.62%;
+  width: 13.06%;
+  bottom: 27.75%;
+  top: 70.38%;
   height: 1.88%;
-}
-.group-25 {
-  position: absolute;
-  inset: 0;
 }
 .rectangle-14982 {
   background: #f6f6f6;
@@ -138,83 +89,108 @@
   top: 62%;
   height: 1.88%;
 }
-.group-24 {
-  position: absolute;
-  inset: 0;
-}
 .rectangle-14983 {
   background: #f6f6f6;
   border-radius: 8px;
   width: 270px;
-  height: 64px;
+  height: 37px;
   position: absolute;
   left: calc(50% - 135px);
-  top: 578px;
+  top: 444px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-.alamat {
+.email {
   color: #7bc74d;
   text-align: left;
   font: 500 12px "Inter-Medium", sans-serif;
   position: absolute;
-  right: 73.61%;
+  right: 76.39%;
   left: 13.33%;
-  width: 13.06%;
-  bottom: 27.75%;
-  top: 70.38%;
+  width: 10.28%;
+  bottom: 44.5%;
+  top: 53.62%;
   height: 1.88%;
 }
-.irsyadul-basyar-syam {
-  color: #000000;
-  text-align: center;
-  font: 500 12px/21px "Nunito-Medium", sans-serif;
+.rectangle-1497 {
+  background: #f6f6f6;
+  border-radius: 8px;
+  width: 270px;
+  height: 37px;
   position: absolute;
-  left: 53px;
-  top: 385px;
+  left: calc(50% - 135px);
+  top: 377px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-.sadulkeren-23-gmail-com {
-  color: #000000;
-  text-align: center;
-  font: 500 12px/21px "Nunito-Medium", sans-serif;
-  text-decoration: underline;
-  position: absolute;
-  left: 53px;
-  top: 452px;
-}
-._082100567815 {
-  color: #000000;
-  text-align: center;
-  font: 500 12px/21px "Nunito-Medium", sans-serif;
-  position: absolute;
-  left: 53px;
-  top: 519px;
-}
-.jl-sukabirus-no-44-desa-citeureup-kecamatan-dayeuhkolot-kabupaten-bandung {
-  color: #000000;
+.nama-lengkap {
+  color: #7bc74d;
   text-align: left;
-  font: 500 12px/21px "Nunito-Medium", sans-serif;
+  font: 500 12px "Inter-Medium", sans-serif;
   position: absolute;
-  left: 53px;
-  top: 586px;
-  width: 256px;
+  right: 61.11%;
+  left: 13.33%;
+  width: 25.56%;
+  bottom: 53.37%;
+  top: 44.75%;
+  height: 1.88%;
 }
-.rectangle-1485 {
+.informasi-personal {
+  color: #000000;
+  text-align: center;
+  font: 700 16px/21px "Nunito-Bold", sans-serif;
+  position: absolute;
+  left: 45px;
+  top: 317px;
+}
+.rectangle-1494 {
+  width: 360px;
+  height: 227px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-1495 {
   background: #7bc74d;
   border-radius: 5px;
-  width: 111px;
-  height: 32px;
+  width: 171px;
+  height: 33px;
   position: absolute;
-  left: calc(50% - 55px);
-  top: 733px;
+  left: 9px;
+  top: 181px;
 }
-.keluar {
+.irsyadul-basyar {
   color: #ffffff;
   text-align: center;
-  font: 700 14px "Lora-Bold", sans-serif;
+  font: 700 16px/21px "Nunito-Bold", sans-serif;
   position: absolute;
-  left: calc(50% - 22px);
-  top: 740px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  left: 40px;
+  top: 187px;
+}
+.ellipse-4 {
+  border-radius: 50%;
+  width: 133px;
+  height: 133px;
+  position: absolute;
+  right: 19px;
+  top: 128px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.edit {
+  background: #7bc74d;
+  border-radius: 5px;
+  width: 52px;
+  height: 24px;
+  position: absolute;
+  left: 289px;
+  top: 237px;
+  color: #ffffff;
+  text-align: center;
+  font: 600 14px/19px "Nunito-Bold", sans-serif;
+}
+.edit2 {
+  color: #ffffff;
+  text-align: center;
+  font: 700 16px/21px "Nunito-Bold", sans-serif;
+  position: absolute;
+  left: 301px;
+  top: 238px;
 }

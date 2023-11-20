@@ -256,8 +256,10 @@
 .group-2639 {
   width: 111px;
    height: 32px;
-  
-          position: static;
+   position: static;
+   color: #ffffff;
+   text-align: center;
+   font: 600 14px/19px "Nunito-Bold", sans-serif;
   
       }
 
@@ -265,12 +267,13 @@
   background: #7bc74d;
   border-radius: 5px;
   width: 111px;
-   height: 32px;
-  
-          position: absolute;
-   left: 224px;
+  height: 32px;
+  position: absolute;
+  left: 224px;
   top: 715px;
-  
+  color: #ffffff;
+  text-align: center;
+  font: 600 14px/19px "Nunito-Bold", sans-serif;
       }
 
 .berikutnya {
