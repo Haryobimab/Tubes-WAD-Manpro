@@ -8,9 +8,10 @@
     <link rel="stylesheet" type="text/css" href="CSS/Form Pembinaan.css">
 </head>
 <body>
-    <div
+    
+<form action="../controller/formpembinaancontroller.php"  method="post"
   class="form-pembinaan"
-  style="background: url(Form\ Pembinaan.png) center; background-size: cover"
+  style="background: url(Image/Rectangle\ 1494.png) center; background-size: cover"
 >
   <div class="rectangle-189"></div>
   <div class="rectangle-190"></div>
@@ -29,23 +30,13 @@
   </svg>
 
   <div class="pembinaan">Pembinaan</div>
-  <div class="group-2632">
-    <div class="rectangle-1508"></div>
-    <div class="group-2629">
-    <form action="../controller/formpembinaancontroller.php" method="post">
-      <div class="judul">Judul</div>
-      <input name='judul' class="rectangle-1506">
-    </div>
-    <div class="group-2630">
-      <div class="konten-pembinaan">Konten Pembinaan</div>
-      <textarea name="kontenpembinaan" type="text" class="rectangle-15062"> </textarea>
-    </div>
-    <div class="group-2631">
-      <input type="submit" value="Simpan" class="rectangle-1509"> 
-    </div>
-  </form>
-  </div>
-</div>
+  <div class="rectangle-1508"></div>
+  <div class="judul">Judul</div>
+  <input name="judul" class="rectangle-1506">
+  <div class="konten-pembinaan">Konten Pembinaan</div>
+  <textarea name="kontenpembinaan" class="rectangle-15062"></textarea>
+  <input type="submit" value="Simpan" class="rectangle-1509">
+</form>
 
 </body>
 </html>
