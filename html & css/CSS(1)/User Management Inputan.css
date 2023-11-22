@@ -1,0 +1,191 @@
+.user-management-input,
+.user-management-input * {
+  box-sizing: border-box;
+}
+.user-management-input {
+  width: 360px;
+  height: 800px;
+  position: relative;
+}
+.rectangle-1492 {
+  background: #7bc74d;
+  width: 360px;
+  height: 800px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.subtract {
+  width: 325px;
+  height: 100px;
+  position: absolute;
+  left: 17px;
+  top: 31px;
+  overflow: visible;
+}
+.group-18 {
+  position: absolute;
+  inset: 0;
+}
+.ellipse-4 {
+  border-radius: 50%;
+  width: 64.52px;
+  height: 62.88px;
+  position: absolute;
+  left: 31px;
+  top: 43px;
+}
+.admin {
+  text-align: left;
+  font: 600 12px "Inter-SemiBold", sans-serif;
+  position: absolute;
+  left: 29px;
+  top: 109px;
+}
+.vector {
+  height: auto;
+  position: absolute;
+  right: 93.06%;
+  left: 2.5%;
+  width: 4.44%;
+  bottom: 96.12%;
+  top: 1.88%;
+  height: 2%;
+  overflow: visible;
+}
+._24-x-7-access {
+  color: #0047ff;
+  text-align: left;
+  font: 400 11px "Inter-Regular", sans-serif;
+  position: absolute;
+  left: 263px;
+  top: 106px;
+}
+.rectangle-1490 {
+  background: #ffffff;
+  border-radius: 20px 20px 0px 0px;
+  width: 360px;
+  height: 579px;
+  position: absolute;
+  left: calc(50% - 180px);
+  top: 221px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.mr-irsyadul-basyar {
+  color: #000000;
+  text-align: center;
+  font: 700 20px/21px "Nunito-Bold", sans-serif;
+  position: absolute;
+  left: 55px;
+  top: 64px;
+  width: 290px;
+  height: 22px;
+}
+.rectangle-1497 {
+  background: #f6f6f6;
+  border-radius: 8px;
+  width: 302px;
+  height: 37px;
+  position: absolute;
+  left: calc(50% - 151px);
+  top: 281px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.nama-lengkap {
+  color: #7bc74d;
+  text-align: left;
+  font: 500 12px "Inter-Medium", sans-serif;
+  position: absolute;
+  right: 62.43%;
+  left: 8.99%;
+  width: 28.58%;
+  bottom: 65.38%;
+  top: 32.75%;
+  height: 1.88%;
+}
+.rectangle-14972 {
+  background: #f6f6f6;
+  border-radius: 8px;
+  width: 302px;
+  height: 37px;
+  position: absolute;
+  left: calc(50% - 151px);
+  top: 363px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.hak-akses {
+  color: #7bc74d;
+  text-align: left;
+  font: 500 12px "Inter-Medium", sans-serif;
+  position: absolute;
+  right: 62.43%;
+  left: 8.99%;
+  width: 28.58%;
+  bottom: 55.12%;
+  top: 43%;
+  height: 1.88%;
+}
+.rectangle-14973 {
+  background: #f6f6f6;
+  border-radius: 8px;
+  width: 302px;
+  height: 37px;
+  position: absolute;
+  left: calc(50% - 151px);
+  top: 445px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.username {
+  color: #7bc74d;
+  text-align: left;
+  font: 500 12px "Inter-Medium", sans-serif;
+  position: absolute;
+  right: 62.43%;
+  left: 8.99%;
+  width: 28.58%;
+  bottom: 44.88%;
+  top: 53.25%;
+  height: 1.88%;
+}
+.rectangle-14974 {
+  background: #f6f6f6;
+  border-radius: 8px;
+  width: 302px;
+  height: 37px;
+  position: absolute;
+  left: calc(50% - 151px);
+  top: 527px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.password {
+  color: #7bc74d;
+  text-align: left;
+  font: 500 12px "Inter-Medium", sans-serif;
+  position: absolute;
+  right: 62.43%;
+  left: 8.99%;
+  width: 28.58%;
+  bottom: 34.62%;
+  top: 63.5%;
+  height: 1.88%;
+}
+.rectangle-1485 {
+  background: #7bc74d;
+  border-radius: 5px;
+  width: 119px;
+  height: 32px;
+  position: absolute;
+  left: calc(50% - 59px);
+  top: 702px;
+}
+.apply {
+  color: #ffffff;
+  text-align: center;
+  font: 700 14px "Lora-Bold", sans-serif;
+  position: absolute;
+  left: 161px;
+  top: 709px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
