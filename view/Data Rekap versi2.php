@@ -7,34 +7,44 @@
     <link rel="stylesheet" type="text/css" href="CSS/Data Rekap versi 1.css">
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
-      google.charts.load('current', {
-        'packages': ['corechart']
+           google.charts.load('current', {
+        'packages': ['corechart', 'bar']
       });
-      google.charts.setOnLoadCallback(drawChart);
+      google.charts.setOnLoadCallback(drawStuff);
 
-      function drawChart() {
+      function drawStuff() {
+
+        var chartDiv = document.getElementById('chart_div');
 
         var data = google.visualization.arrayToDataTable([
-          ['Effort', 'Amount given'],
-          ['Memenuhi Standar', 75],
-          ['Tidak Memenuhi', 25]
+          ['', '', ''],
+          ['26 Februari', 80, 43.3],
+          ['31 Maret', 24, 74.5],
+          ['29 Juni', 30, 34.3],
         ]);
 
-        var options = {
-          pieHole: 0.4,
-          pieSliceTextStyle: {
-            color: 'black',
+        var materialOptions = {
+          width: 329,
+        
+          series: {
+            0: {
+              axis: 'Standar'
+            }, // Bind series 0 to an axis named 'distance'.
+            1: {
+              axis: 'X-Standar'
+            } // Bind series 1 to an axis named 'brightness'.
           },
-          legend: 'none',
-          
-          x: 33,
-          y: 169,
-          width:300,
-          height:379,
+
         };
 
-        var chart = new google.visualization.PieChart(document.getElementById('donut_single'));
-        chart.draw(data, options);
+
+        function drawMaterialChart() {
+          var materialChart = new google.charts.Bar(chartDiv);
+          materialChart.draw(data, google.charts.Bar.convertOptions(materialOptions));
+
+        }
+
+        drawMaterialChart();
       }
 
     </script>
@@ -61,10 +71,10 @@
         
         
         <!--Zona Masuk Chart-->
-        <div class="rectangle-1486">
-          <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-          <div class="chart" id="donut_single" style="width: 300px; height: 300px;"></div>
-        </div>
+        
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <div id="chart_div" style="width: 300px; height: 359px;" class="rectangle-1486"></div>
+        
 
 
         <!--Zona Chart Selesai-->
