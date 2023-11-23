@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="CSS/User Management (1).css">
+    <link rel="stylesheet" type="text/css" href="CSS/User Management Inputan.css">
 </head>
 <body>
-    <div class="user-management">
+    <div class="user-management-input">
         <div class="rectangle-1492"></div>
         <svg
           class="subtract"
@@ -26,8 +26,9 @@
         </svg>
       
         <div class="group-18">
-          <img class="ellipse-4" src="Image/ellipse 4(1).png" />
+          <img class="ellipse-4" src="Ellipse-4.png" />
         </div>
+        <div class="admin">Admin</div>
         <svg
           class="vector"
           width="16"
@@ -45,39 +46,16 @@
         <div class="_24-x-7-access">24x7 Access</div>
         <div class="rectangle-1490"></div>
         <div class="mr-irsyadul-basyar">Mr Irsyadul Basyar</div>
-        <div class="group-23">
-          <input class="rectangle-1497">
-          <div class="nama-lengkap">Nama Lengkap*</div>
-        </div>
-        <div class="group-2613">
-          <div class="group-24">
-            <select class="rectangle-14972">
-              <option value="Penghuni">Penghuni</option>
-              <option value="Pembina">Pembina</option>
-              <option value="Ketua">Ketua</option>
-            </select>
-            <div class="hak-akses">Hak Akses*</div>
-          </div>
-        </div>
-        <div class="group-2614">
-          <div class="group-26">
-            <input class="rectangle-14973">
-            <div class="peran">Username*</div>
-          </div>
-          
-        </div>
-        <div class="group-2615">
-          <div class="group-27">
-            <input class="rectangle-14974">
-            <div class="status">Password*</div>
-          </div>
-          
-        </div>
-        
-        <div class="group-2622">
-          <input type="submit" value="" class="rectangle-1485">
-          <div class="apply">Apply</div>
-        </div>
+        <div class="rectangle-1497"></div>
+        <div class="nama-lengkap">Nama Lengkap*</div>
+        <div class="rectangle-14972"></div>
+        <div class="hak-akses">Hak Akses*</div>
+        <div class="rectangle-14973"></div>
+        <div class="username">Username*</div>
+        <div class="rectangle-14974"></div>
+        <div class="password">Password*</div>
+        <div class="rectangle-1485"></div>
+        <div class="apply">Apply</div>
       </div>
       
 </body>

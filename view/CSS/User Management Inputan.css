@@ -1,13 +1,11 @@
-.user-management,
-.user-management * {
+.user-management-input,
+.user-management-input * {
   box-sizing: border-box;
 }
-.user-management {
-  background: #ffffff;
+.user-management-input {
   width: 360px;
   height: 800px;
   position: relative;
-  overflow: hidden;
 }
 .rectangle-1492 {
   background: #7bc74d;
@@ -83,10 +81,6 @@
   width: 290px;
   height: 22px;
 }
-.group-23 {
-  position: absolute;
-  inset: 0;
-}
 .rectangle-1497 {
   background: #f6f6f6;
   border-radius: 8px;
@@ -108,15 +102,6 @@
   bottom: 65.38%;
   top: 32.75%;
   height: 1.88%;
-}
-.group-2613 {
-  position: absolute;
-  inset: 0;
-}
-.group-24 {
-  width: 302px;
-  height: 56px;
-  position: static;
 }
 .rectangle-14972 {
   background: #f6f6f6;
@@ -140,26 +125,6 @@
   top: 43%;
   height: 1.88%;
 }
-.vector2 {
-  height: auto;
-  position: absolute;
-  right: 13.06%;
-  left: 83.61%;
-  width: 3.33%;
-  bottom: 51.32%;
-  top: 47.75%;
-  height: 0.93%;
-  overflow: visible;
-}
-.group-2614 {
-  position: absolute;
-  inset: 0;
-}
-.group-26 {
-  width: 302px;
-  height: 56px;
-  position: static;
-}
 .rectangle-14973 {
   background: #f6f6f6;
   border-radius: 8px;
@@ -170,7 +135,7 @@
   top: 445px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-.peran {
+.username {
   color: #7bc74d;
   text-align: left;
   font: 500 12px "Inter-Medium", sans-serif;
@@ -182,26 +147,6 @@
   top: 53.25%;
   height: 1.88%;
 }
-.vector3 {
-  height: auto;
-  position: absolute;
-  right: 13.06%;
-  left: 83.61%;
-  width: 3.33%;
-  bottom: 41.07%;
-  top: 58%;
-  height: 0.93%;
-  overflow: visible;
-}
-.group-2615 {
-  position: absolute;
-  inset: 0;
-}
-.group-27 {
-  width: 302px;
-  height: 56px;
-  position: static;
-}
 .rectangle-14974 {
   background: #f6f6f6;
   border-radius: 8px;
@@ -212,7 +157,7 @@
   top: 527px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-.status {
+.password {
   color: #7bc74d;
   text-align: left;
   font: 500 12px "Inter-Medium", sans-serif;
@@ -223,63 +168,6 @@
   bottom: 34.62%;
   top: 63.5%;
   height: 1.88%;
-}
-.vector4 {
-  height: auto;
-  position: absolute;
-  right: 13.06%;
-  left: 83.61%;
-  width: 3.33%;
-  bottom: 30.82%;
-  top: 68.25%;
-  height: 0.93%;
-  overflow: visible;
-}
-.group-2616 {
-  position: absolute;
-  inset: 0;
-}
-.group-28 {
-  width: 302px;
-  height: 56px;
-  position: static;
-}
-.rectangle-14975 {
-  background: #f6f6f6;
-  border-radius: 8px;
-  width: 302px;
-  height: 37px;
-  position: absolute;
-  left: calc(50% - 151px);
-  top: 609px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-.kehadiran {
-  color: #7bc74d;
-  text-align: left;
-  font: 500 12px "Inter-Medium", sans-serif;
-  position: absolute;
-  right: 62.43%;
-  left: 8.99%;
-  width: 28.58%;
-  bottom: 24.38%;
-  top: 73.75%;
-  height: 1.88%;
-}
-.vector5 {
-  height: auto;
-  position: absolute;
-  right: 13.06%;
-  left: 83.61%;
-  width: 3.33%;
-  bottom: 20.57%;
-  top: 78.5%;
-  height: 0.93%;
-  overflow: visible;
-}
-.group-2622 {
-  position: absolute;
-  inset: 0;
 }
 .rectangle-1485 {
   background: #7bc74d;
@@ -297,43 +185,6 @@
   position: absolute;
   left: 161px;
   top: 709px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.group-2628 {
-  position: absolute;
-  inset: 0;
-}
-.rectangle-312 {
-  background: #ffffff;
-  border-radius: 16px;
-  width: 336px;
-  height: 331px;
-  position: absolute;
-  left: calc(50% - 168px);
-  top: 299px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
-}
-.icon-alert-circle {
-  width: 156px;
-  height: 152px;
-  position: absolute;
-  right: 28.33%;
-  left: 28.33%;
-  width: 43.33%;
-  bottom: 39%;
-  top: 42%;
-  height: 19%;
-  overflow: visible;
-}
-.ups-data-sepertinya-belum-tersimpan {
-  color: #000000;
-  text-align: center;
-  font: 700 14px "Lora-Bold", sans-serif;
-  position: absolute;
-  left: 67px;
-  top: 524px;
   display: flex;
   align-items: center;
   justify-content: center;

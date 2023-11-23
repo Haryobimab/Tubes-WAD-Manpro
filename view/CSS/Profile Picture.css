@@ -54,6 +54,7 @@
   color: #ffffff;
   text-align: center;
   font: 600 14px/19px "Nunito-Bold", sans-serif;
+  border: none;
 }
 .alamat {
   color: #7bc74d;
@@ -120,6 +121,7 @@
   left: calc(50% - 135px);
   top: 377px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border: none;
 }
 .nama-lengkap {
   color: #7bc74d;
@@ -194,3 +196,5 @@
   left: 301px;
   top: 238px;
 }
+
+
