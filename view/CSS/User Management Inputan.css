@@ -90,6 +90,13 @@
   left: calc(50% - 151px);
   top: 281px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 15px;
+  font: 700 13px 'Lora-Bold', sans-serif;
+  border:none;
 }
 .nama-lengkap {
   color: #7bc74d;
@@ -112,6 +119,12 @@
   left: calc(50% - 151px);
   top: 363px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  padding-left: 16px;
+  padding-right: 16px;
+  
+  font: 700 13px 'Lora-Bold', sans-serif;
+  border:none;
 }
 .hak-akses {
   color: #7bc74d;
@@ -134,6 +147,13 @@
   left: calc(50% - 151px);
   top: 445px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 15px;
+  font: 700 13px 'Lora-Bold', sans-serif;
+  border:none;
 }
 .username {
   color: #7bc74d;
@@ -156,6 +176,13 @@
   left: calc(50% - 151px);
   top: 527px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 15px;
+  font: 700 13px 'Lora-Bold', sans-serif;
+  border:none;
 }
 .password {
   color: #7bc74d;
@@ -177,6 +204,12 @@
   position: absolute;
   left: calc(50% - 59px);
   top: 702px;
+
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  font: 700 14px 'Lora-Bold', sans-serif;
 }
 .apply {
   color: #ffffff;

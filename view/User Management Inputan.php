@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="CSS/User Management Inputan.css">
 </head>
 <body>
-    <div class="user-management-input">
+    <form action="../controller/usermanagementinputcontrol.php" method="post" class="user-management-input">
         <div class="rectangle-1492"></div>
         <svg
           class="subtract"
@@ -26,7 +26,7 @@
         </svg>
       
         <div class="group-18">
-          <img class="ellipse-4" src="Ellipse-4.png" />
+          <img class="ellipse-4" src="Image/Ellipse 4.png" />
         </div>
         <div class="admin">Admin</div>
         <svg
@@ -46,17 +46,21 @@
         <div class="_24-x-7-access">24x7 Access</div>
         <div class="rectangle-1490"></div>
         <div class="mr-irsyadul-basyar">Mr Irsyadul Basyar</div>
-        <div class="rectangle-1497"></div>
+        <input name="nama" class="rectangle-1497">
         <div class="nama-lengkap">Nama Lengkap*</div>
-        <div class="rectangle-14972"></div>
+        <select name="hakakses" class="rectangle-14972">
+          <option value="Penghuni">Penghuni</option>
+          <option value="Pembina">Pembina</option>
+          <option value="Ketua">Ketua</option>
+        </select>
         <div class="hak-akses">Hak Akses*</div>
-        <div class="rectangle-14973"></div>
+        <input name="username" class="rectangle-14973">
         <div class="username">Username*</div>
-        <div class="rectangle-14974"></div>
+        <input name="password" class="rectangle-14974">
         <div class="password">Password*</div>
-        <div class="rectangle-1485"></div>
-        <div class="apply">Apply</div>
-      </div>
+        <input type="submit" value="Apply" class="rectangle-1485" style="border: none; color: #ffffff; text-align: center; text-decoration: none; font: 700 14px 'Lora-Bold', sans-serif;">
+        
+</form>
       
 </body>
 </html>
