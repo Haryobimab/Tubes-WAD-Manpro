@@ -26,7 +26,7 @@
     </svg>
   
     <div class="group-18">
-      <img class="ellipse-4" src="ellipse-40.png" />
+      <img class="ellipse-4" src="Image/Ellipse 4.png" />
     </div>
     <div class="admin">Admin</div>
     <svg
@@ -47,10 +47,11 @@
     <div class="rectangle-1490"></div>
     <div class="rectangle-1501"></div>
     <div class="tambah-anggota">Tambah Anggota</div>
-    <div class="rectangle-1502"></div>
-    <div class="hapus-anggota">Hapus Anggota</div>
+    <button action="" class="rectangle-1502" style="border: none;color: #ffffff;text-align: center;text-decoration: none;font: 700 14px 'Lora-Bold', sans-serif;">Hapus Anggota</button>
+    
+
     <div class="mr-irsyadul-basyar">Mr Irsyadul Basyar</div>
-    <img class="my-su-logo-05-1" src="my-su-logo-05-10.png" />
+    <img class="my-su-logo-05-1" src="Image/MySU logo-05.png" />
   </div>
   
 </body>

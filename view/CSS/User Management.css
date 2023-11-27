@@ -101,6 +101,12 @@
   position: absolute;
   left: calc(50% - 85px);
   top: 590px;
+
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  font: 700 14px 'Lora-Bold', sans-serif;
 }
 .hapus-anggota {
   color: #ffffff;
