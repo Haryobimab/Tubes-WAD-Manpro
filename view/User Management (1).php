@@ -45,10 +45,14 @@
         <div class="_24-x-7-access">24x7 Access</div>
         <div class="rectangle-1490"></div>
         <div class="mr-irsyadul-basyar">Mr Irsyadul Basyar</div>
+        
+    <form method="post" action="userManagementController.php"
+        
         <div class="group-23">
-          <input class="rectangle-1497">
+          <input type="text" name="name" class="rectangle-1497">
           <div class="nama-lengkap">Nama Lengkap*</div>
         </div>
+
         <div class="group-2613">
           <div class="group-24">
             <select class="rectangle-14972">
@@ -59,26 +63,21 @@
             <div class="hak-akses">Hak Akses*</div>
           </div>
         </div>
+
         <div class="group-2614">
           <div class="group-26">
-            <input class="rectangle-14973">
+            <input type="text" name="username" class="rectangle-14973">
             <div class="peran">Username*</div>
           </div>
           
         </div>
-        <div class="group-2615">
-          <div class="group-27">
-            <input class="rectangle-14974">
+            <input type="password" name="password" class="rectangle-14974">
             <div class="status">Password*</div>
-          </div>
-          
-        </div>
-        
         <div class="group-2622">
           <input type="submit" value="" class="rectangle-1485">
           <div class="apply">Apply</div>
         </div>
       </div>
-      
+    </form>
 </body>
 </html>
