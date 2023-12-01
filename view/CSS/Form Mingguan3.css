@@ -91,18 +91,19 @@
    background: #ffffff;
    border-radius: 5px;
    width: 268px;
-    height: 34px;
-    padding-left: 16px;
+   height: 34px;
+
+   padding-left: 16px;
    padding-right: 16px;
    padding-top: 12px;
    padding-bottom: 15px;
    font: 700 13px 'Lora-Bold', sans-serif;
    
-           position: absolute;
-    left: calc(50% - 139px);
+   border:none;
+   position: absolute;
+   left: calc(50% - 139px);
    top: 186px;
-   
-       box-shadow:  1px 1px 7px 0px rgba(0, 0, 0, 0.20);
+   box-shadow:  1px 1px 7px 0px rgba(0, 0, 0, 0.20);
    }
 
 .rectangle-1481 {
@@ -135,18 +136,18 @@
    background: #ffffff;
    border-radius: 5px;
    width: 268px;
-    height: 34px;
-    padding-left: 16px;
+   height: 34px;
+   
+   padding-left: 16px;
    padding-right: 16px;
    padding-top: 12px;
    padding-bottom: 15px;
    font: 700 13px 'Lora-Bold', sans-serif;
-   
-           position: absolute;
-    left: calc(50% - 139px);
+   border:none;
+   position: absolute;
+   left: calc(50% - 139px);
    top: 322px;
-   
-       box-shadow:  1px 1px 7px 0px rgba(0, 0, 0, 0.20);
+   box-shadow:  1px 1px 7px 0px rgba(0, 0, 0, 0.20);
    }
 
 .berikutnya {
@@ -167,12 +168,16 @@ align-items: center;
    background: #7bc74d;
    border-radius: 5px;
    width: 119px;
-    height: 32px;
-   
-           position: absolute;
-    left: calc(50% - 60px);
+   height: 32px;
+   position: absolute;
+   left: calc(50% - 60px);
    top: 707px;
    
+   border: none;
+   color: #ffffff;
+   text-align: center;
+   text-decoration: none;
+   font: 700 14px 'Lora-Bold', sans-serif;
        }
 
 .simpan {

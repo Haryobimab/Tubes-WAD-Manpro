@@ -13,12 +13,12 @@ if(isset($_POST['login'])){
     $data = mysqli_fetch_assoc($result);
 
     if(mysqli_num_rows($result) == 1) {
-
+        echo"nama aman";
     
-        if ($password == $data['password']){
+        if(password_verify($password, $data['password'])){
             $_SESSION['login'] = true;
             $_SESSION['id'] = $data['id'];
-            
+            echo "pass aman";
             if ($data['jabatan'] == '1'){
                 $_SESSION['jabatan'] = $data['jabatan'];
                 header("Location: Dashboard Pembina.php");
@@ -35,16 +35,10 @@ if(isset($_POST['login'])){
             }
 
         }else{
-                echo"gagal";
-                var_dump($data);
-                echo $name;
-                echo $password;
+            echo "<script>alert('Password Salah!')</script>";
         }
     }else{
-        echo"gagal";
-        var_dump($data);
-        echo $name;
-        echo $password;
+        echo "<script>alert('Username Tidak Ada!')</script>";
     }
 }
 ?>
