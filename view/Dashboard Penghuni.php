@@ -11,12 +11,22 @@
   class="dashboard-anggota"
   style="background: url(Image/Dashboard\ PEMBINA\ \(1\).png) center; background-size: cover"
 >
+
+
   <div class="rectangle-46"></div>
   <div class="mr-irsyadul-basyar">Mr Irsyadul Basyar</div>
   <div class="selamat-datang">Selamat datang!</div>
   <div class="rectangle-1476"></div>
-  <div class="rectangle-23"></div>
-  <div class="rectangle-1477"></div>
+
+  <!--Rectangle Form Mingguan-->
+  <a href="Form Mingguan-1.php">
+  <div class="rectangle-23"></div></a>
+
+  <!--Rectangle Best of The Month-->
+  <a href="Best of The Month.php">
+  <div class="rectangle-1477"></div></a>
+
+
   <img
     class="_1643042273358-removebg-preview-3"
     src="Image/MSU Logo.png"
@@ -35,8 +45,13 @@
     />
   </svg>
 
+  <!--Logout-->
+  <a href="../controller/logoutController.php">
   <div class="rectangle-232"></div>
-  <div class="keluar">Keluar</div>
+  <div class="keluar">Keluar</div></a>
+
+  <!--Form Mingguan-->
+  <a href="Form Mingguan-1.php">
   <div class="menambah-aktivitas-mingguan">Menambah Aktivitas Mingguan</div>
   <svg
     class="octicon-feed-plus-16"
@@ -57,8 +72,10 @@
         <rect width="22" height="21" fill="white" />
       </clipPath>
     </defs>
-  </svg>
+  </svg></a>
 
+  <!--Best of The Month-->
+  <a href="Best of The Month.php">
   <div class="solar-ranking-bold-duotone">
     <svg
       class="group"
@@ -79,7 +96,9 @@
       />
     </svg>
   </div>
-  <div class="penghuni-terbaik">Penghuni Terbaik</div>
+  <div class="penghuni-terbaik">Penghuni Terbaik</div></a>
+
+
   <img class="my-su-logo-05-1" src="Image/MySU logo-05.png" />
 </div>
 
