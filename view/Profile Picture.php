@@ -30,9 +30,9 @@
 <div class="profile-picture">
   <!--Form-->
   <form action="../controller/profilcontroller.php" method="post">
-    <input type="submit" value="Simpan" class="rectangle-1485" style="border:none; cursor: pointer;">
+    <input type="submit" value="Simpan" class="rectangle-1485" style="border:none; cursor: pointer; top: 745px;">
     <div class="rectangle-1496"></div>
-    <textarea name="alamat" class="rectangle-1498" style="border:none; color:black" value=""><?= $data['alamat'] ?></textarea>
+    <textarea name="alamat" class="rectangle-1498" style="border:none; color:black; text-align:justify" value=""><?= $data['alamat'] ?></textarea>
     <div class="alamat">Alamat*</div>
     <input name="nomortelepon" class="rectangle-14982" style="border:none" value="<?= $data['nomor_telepon'] ?>" required>
     <div class="nomor-telepon">Nomor Telepon*</div>
@@ -49,10 +49,25 @@
   <div class="irsyadul-basyar">Irsyadul Basyar</div>
 
   <!--Change Profile-->
-  <img class="ellipse-4" src="Image/Ellipse 4.png" />
-  <label class="edit">
-    <input type="file" name="file" style="display:none; cursor: pointer;">Edit
-  </label>
+  <form action="../controller/gantifoto.php" method="POST">
+    <img class="ellipse-4" src="Image/Ellipse 4.png" />
+    <label class="edit">
+      <input type="file" name="file" style="display:none; cursor: pointer;">Edit
+    </label>
+    <input type="submit" value="Submit Foto" style="
+    background: #7bc74d;
+    border-radius: 5px;
+    width: 100px;
+    height: 37px;
+    border: none; 
+    color: #ffffff; 
+    text-align: center; 
+    text-decoration: none; 
+    font: 700 14px 'Lora-Bold', sans-serif;
+    position:relative; 
+    left: calc(50% - 49.5px); 
+    top: 700px;">
+  </form>
 </div>
 
 </body>
