@@ -1,3 +1,23 @@
+<?php
+  session_start();
+  require('../controller/connect.php'); 
+  include('../controller/loginController.php');
+
+  if($_SESSION['jabatan'] == '3') {
+    $jabatans = "Dashboard Penghuni.php";
+  } elseif ($_SESSION['jabatan'] == '2'){
+    $jabatans = "Dashboard ketua.php";
+  } elseif ($_SESSION['jabatan'] == '1'){
+    $jabatans = "Dashboard Pembina.php";
+  }
+
+  $id = $_SESSION['id'];
+
+  $query = "SELECT * FROM user WHERE id = '$id'";
+  $result = mysqli_query($connect, $query);
+  $data = mysqli_fetch_assoc($result);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,16 +29,16 @@
 <body>
 <div class="profile-picture">
   <!--Form-->
-  <form action="" method="post">
+  <form action="../controller/profilcontroller.php" method="post">
     <input type="submit" value="Simpan" class="rectangle-1485" style="border:none; cursor: pointer;">
     <div class="rectangle-1496"></div>
-    <textarea name="alamat" class="rectangle-1498" style="border:none"></textarea>
+    <textarea name="alamat" class="rectangle-1498" style="border:none; color:black" value=""><?= $data['alamat'] ?></textarea>
     <div class="alamat">Alamat*</div>
-    <input name="nomortelepon" class="rectangle-14982" style="border:none">
+    <input name="nomortelepon" class="rectangle-14982" style="border:none" value="<?= $data['nomor_telepon'] ?>" required>
     <div class="nomor-telepon">Nomor Telepon*</div>
-    <input name="email" class="rectangle-14983" style="border:none">
+    <input name="email" class="rectangle-14983" style="border:none" value="<?= $data['email'] ?>" required>
     <div class="email">Email*</div>
-    <input name="nama"class="rectangle-1497" style="border:none">
+    <input name="nama"class="rectangle-1497" style="border:none" value="<?= $data['nama_lengkap'] ?>">
     <div class="nama-lengkap">Nama Lengkap*</div>
     <div class="informasi-personal">Informasi Personal</div>
   </form>
