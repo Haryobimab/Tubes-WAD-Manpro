@@ -46,10 +46,6 @@
   height: 3.38%;
   width: 157px;
 }
-.group-2632 {
-  position: absolute;
-  inset: 0;
-}
 .rectangle-1508 {
   background: #fefefe;
   border-radius: 5px;
@@ -59,11 +55,6 @@
   left: calc(50% - 165px);
   top: 207px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-.group-2629 {
-  width: 298px;
-  height: 41px;
-  position: static;
 }
 .judul {
   color: #000000;
@@ -86,16 +77,6 @@
   position: absolute;
   left: calc(50% - 138px);
   top: 248px;
-  padding-left: 16px;
-   padding-right: 16px;
-   padding-top: 12px;
-   padding-bottom: 15px;
-   font: 700 13px 'Lora-Bold', sans-serif;
-}
-.group-2630 {
-  width: 296px;
-  height: 260px;
-  position: static;
 }
 .konten-pembinaan {
   color: #000000;
@@ -118,22 +99,21 @@
   position: absolute;
   left: calc(50% - 138px);
   top: 310px;
-
-}
-
-.group-2631 {
-  width: 84px;
-  height: 22px;
-  position: static;
 }
 .rectangle-1509 {
   background: #7bc74d;
   border-radius: 5px;
-  width: 84px;
-  height: 22px;
+  width: 119px;
+  height: 32px;
   position: absolute;
   left: 245px;
   top: 574px;
+
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  font: 700 14px 'Lora-Bold', sans-serif;
 }
 .simpan {
   color: #ffffff;
