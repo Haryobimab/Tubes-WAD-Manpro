@@ -11,56 +11,7 @@
         <div class="back-belakang"></div>
         <div class="back-depan"></div>
 
-        <div class="next"></div>
-
-        <!--Repeat User Tampil Sampai 5 User-->
-        <div class="tab-5"></div>
-        <div class="hapus-5"></div>
-        <div class="tab-4"></div>
-        <div class="hapus-4"></div>
-        <div class="tab-3"></div>
-        <div class="hapus-3"></div>
-        <div class="tab-2"></div>
-        <div class="hapus-2"></div>
-        <div class="tab-1"></div>
-        <div class="hapus-1"></div>
-
-        <!--Foto Usernya-->
-        <img class="foto-5" src="foto-50.png" />
-        <img
-          class="foto-4"
-          src="foto-40.png"
-        />
-        <img class="foto-3" src="foto-30.png" />
-        <img
-          class="foto-2"
-          src="foto-20.png"
-        />
-        <img class="foto-1" src="foto-10.png" />
-
-        <div class="next2">Next</div>
-        <div class="hapus">Hapus</div>
-        <div class="hapus2">Hapus</div>
-        <div class="hapus3">Hapus</div>
-        <div class="hapus4">Hapus</div>
-        <div class="hapus5">Hapus</div>
-
-
-        <div class="vendorwifibapuk-123-gmail-com">vendorwifibapuk123@gmail.com</div>
-        <div class="jono-sutrisna">Jono Sutrisna</div>
-        <div class="gwejsepuh-245-gmail-com">
-          <span>
-            <span class="gwejsepuh-245-gmail-com-span">gwejsepuh245</span>
-            <span class="gwejsepuh-245-gmail-com-span2">@gmail.com</span>
-          </span>
-        </div>
-        <div class="ahmad-supratdi">Ahmad Supratdi</div>
-        <div class="abdulbathuk-69-gmail-com">abdulbathuk69@gmail.com</div>
-        <div class="abdul-qodir">Abdul Qodir</div>
-        <div class="kunti-boghel-73-gmail-com">KuntiBoghel73@gmail.com</div>
-        <div class="muflikhun-al-azis">Muflikhun Al-Azis</div>
-        <div class="musang-salto-23-gmail-com">MusangSalto23@gmail.com</div>
-        <div class="beni-adam">Beni Adam</div>
+        
 
         <svg
           class="subtract"

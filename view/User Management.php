@@ -45,9 +45,9 @@
   
     <div class="_24-x-7-access">24x7 Access</div>
     <div class="rectangle-1490"></div>
-    <div class="rectangle-1501"></div>
-    <div class="tambah-anggota">Tambah Anggota</div>
-    <button action="" class="rectangle-1502" style="border: none;color: #ffffff;text-align: center;text-decoration: none;font: 700 14px 'Lora-Bold', sans-serif;">Hapus Anggota</button>
+    <a href="User Management Inputan.php"><button class="rectangle-1501" style="border: none;color: #ffffff;text-align: center;text-decoration: none;font: 700 14px 'Lora-Bold', sans-serif;">Tambah Anggota</button></a>
+    
+    <a href="User Management Removal.php"><button  class="rectangle-1502" style="border: none;color: #ffffff;text-align: center;text-decoration: none;font: 700 14px 'Lora-Bold', sans-serif;">Hapus Anggota</button></a>
     
 
     <div class="mr-irsyadul-basyar">Mr Irsyadul Basyar</div>

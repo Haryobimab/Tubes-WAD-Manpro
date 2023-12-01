@@ -1,3 +1,9 @@
+<?php
+
+include('../controller/UserManagementController.php');
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +13,7 @@
     <link rel="stylesheet" type="text/css" href="CSS/User Management Inputan.css">
 </head>
 <body>
-    <form action="../controller/usermanagementinputcontrol.php" method="post" class="user-management-input">
+    <form action="../controller/userManagementController.php" method="post" class="user-management-input">
         <div class="rectangle-1492"></div>
         <svg
           class="subtract"
@@ -58,7 +64,7 @@
         <div class="username">Username*</div>
         <input name="password" class="rectangle-14974">
         <div class="password">Password*</div>
-        <input type="submit" value="Apply" class="rectangle-1485" style="border: none; color: #ffffff; text-align: center; text-decoration: none; font: 700 14px 'Lora-Bold', sans-serif;">
+        <input type="submit" value="Apply" name="apply" class="rectangle-1485" style="border: none; color: #ffffff; text-align: center; text-decoration: none; font: 700 14px 'Lora-Bold', sans-serif;">
         
 </form>
       
