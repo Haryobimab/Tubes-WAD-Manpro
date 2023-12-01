@@ -20,24 +20,30 @@ if(isset($_POST['login'])){
             echo "pass aman";
             if ($data['jabatan'] == '1'){
                 $_SESSION['jabatan'] = $data['jabatan'];
-                header("Location: Dashboard Pembina.php");
+                header("Location: ../view/Dashboard Pembina.php");
             }
 
             if ($data['jabatan'] == '2'){
                 $_SESSION['jabatan'] = $data['jabatan'];
-                header("Location: Dashboard ketua.php");
+                header("Location: ../view/Dashboard ketua.php");
             }
             
             if ($data['jabatan'] == '3'){
                 $_SESSION['jabatan'] = $data['jabatan'];
-                header("Location: Dashboard Penghuni.php");
+                header("Location: ../view/Dashboard Penghuni.php");
             }
 
         }else{
-            echo "<script>alert('Password Salah!')</script>";
+            echo "<script>
+            alert('Password Salah!')
+            document.location.href = '../view/Login.php'
+            </script>";
         }
     }else{
-        echo "<script>alert('Username Tidak Ada!')</script>";
+        echo "<script>
+        alert('Username Tidak Ada!')
+        document.location.href = '../view/Login.php'
+        </script>";
     }
 }
 ?>

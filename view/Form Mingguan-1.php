@@ -1,3 +1,9 @@
+<?php
+  session_start();
+  include('../controller/connect.php');
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
