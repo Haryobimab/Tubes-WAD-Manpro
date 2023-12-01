@@ -1,8 +1,8 @@
-.dashboard-ketua,
-.dashboard-ketua * {
+.dashboard-anggota,
+.dashboard-anggota * {
   box-sizing: border-box;
 }
-.dashboard-ketua {
+.dashboard-anggota {
   width: 360px;
   height: 800px;
   position: relative;
@@ -52,8 +52,8 @@
   width: 246px;
   height: 44px;
   position: absolute;
-  left: calc(50% - 122px);
-  top: 290px;
+  left: calc(50% - 124px);
+  top: 344px;
   box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.2);
 }
 .rectangle-1477 {
@@ -62,37 +62,9 @@
   width: 246px;
   height: 44px;
   position: absolute;
-  left: calc(50% - 122px);
-  top: 357px;
+  left: calc(50% - 124px);
+  top: 411px;
   box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.2);
-}
-.rectangle-1478 {
-  background: #ffffff;
-  border-radius: 4px;
-  width: 246px;
-  height: 44px;
-  position: absolute;
-  left: calc(50% - 122px);
-  top: 424px;
-  box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.2);
-}
-.menambah-aktivitas-mingguan {
-  color: #000000;
-  text-align: left;
-  font: 700 11px/21px "Lora-Bold", sans-serif;
-  position: absolute;
-  left: 127px;
-  top: 302px;
-  width: 243px;
-  height: 25px;
-}
-.octicon-feed-plus-16 {
-  width: 22px;
-  height: 21px;
-  position: absolute;
-  left: 78px;
-  top: 302px;
-  overflow: visible;
 }
 ._1643042273358-removebg-preview-3 {
   width: 57px;
@@ -124,7 +96,7 @@
   height: 44px;
   position: absolute;
   left: calc(50% - 70px);
-  top: 630px;
+  top: 628px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .keluar {
@@ -133,37 +105,37 @@
   font: 700 15px "Lora-Bold", sans-serif;
   position: absolute;
   left: calc(50% - 24px);
-  top: 641px;
+  top: 639px;
   width: 49px;
   height: 22px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.fluent-person-key-20-filled {
-  width: 30px;
-  height: 29px;
-  position: absolute;
-  left: 73px;
-  top: 364px;
-  overflow: visible;
-}
-.mengelola-user {
+.menambah-aktivitas-mingguan {
   color: #000000;
   text-align: left;
-  font: 700 14px/21px "Lora-Bold", sans-serif;
+  font: 700 11px/21px "Lora-Bold", sans-serif;
   position: absolute;
-  left: 127px;
-  top: 368px;
-  width: 123px;
-  height: 27px;
+  left: 123px;
+  top: 356px;
+  width: 243px;
+  height: 25px;
+}
+.octicon-feed-plus-16 {
+  width: 22px;
+  height: 21px;
+  position: absolute;
+  left: 74px;
+  top: 356px;
+  overflow: visible;
 }
 .solar-ranking-bold-duotone {
   width: 31px;
   height: 28px;
   position: absolute;
-  left: 72px;
-  top: 430px;
+  left: 71px;
+  top: 417px;
   overflow: hidden;
 }
 .group {
@@ -182,41 +154,15 @@
   text-align: left;
   font: 700 14px/21px "Lora-Bold", sans-serif;
   position: absolute;
-  left: 127px;
-  top: 435px;
+  left: 126px;
+  top: 422px;
   width: 123px;
   height: 27px;
-}
-.rectangle-1479 {
-  background: #ffffff;
-  border-radius: 4px;
-  width: 246px;
-  height: 44px;
-  position: absolute;
-  left: calc(50% - 122px);
-  top: 491px;
-  box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.2);
-}
-.pembinaan {
-  color: #000000;
-  text-align: left;
-  font: 700 14px/21px "Lora-Bold", sans-serif;
-  position: absolute;
-  left: 127px;
-  top: 502px;
-}
-.clarity-book-solid {
-  width: 28px;
-  height: 28px;
-  position: absolute;
-  left: 73px;
-  top: 499px;
-  overflow: visible;
 }
 .my-su-logo-05-1 {
   width: 74px;
   height: 74px;
   position: absolute;
-  left: calc(50% - 36px);
+  left: calc(50% - 37px);
   top: 193px;
 }
