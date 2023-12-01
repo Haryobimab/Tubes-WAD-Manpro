@@ -1,8 +1,10 @@
 <?php
-include('connect.php');
+session_start();
+require('../controller/connect.php');
+include('../controller/loginController.php');
 
-$id=2;
-$query1 = "SELECT * FROM aktivitas_mingguan WHERE id='$id'";
+$id=$_SESSION['id'];
+$query1 = "SELECT * FROM aktivitas_mingguan WHERE id='$id' ORDER BY id_aktivitas DESC";
 $search = mysqli_query($connect, $query1);
 $data = mysqli_fetch_assoc($search);
 

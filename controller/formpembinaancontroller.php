@@ -1,8 +1,9 @@
 <?php
-include('connect.php');
+session_start();
+require('../controller/connect.php');
+include('../controller/loginController.php');
 
-//id sesuaikan
-$id=2;
+$id=$_SESSION['id'];
 $judul = $_POST['judul'];
 $kontenpembinaan = $_POST['kontenpembinaan'];
 $mydate=getdate(date("U"));

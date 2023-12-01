@@ -1,3 +1,19 @@
+<?php
+session_start();
+require('../controller/connect.php');
+include('../controller/loginController.php');
+
+if (!isset($_SESSION['login'])) {
+    header("Location: login.php");
+  }
+
+if ($_SESSION['jabatan'] == '1'){
+
+}   else {
+    header('Location: Login.php');
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

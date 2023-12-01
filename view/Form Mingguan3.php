@@ -1,3 +1,16 @@
+<?php
+  session_start();
+  require('../controller/connect.php'); 
+  include('../controller/loginController.php');
+
+  if($_SESSION['jabatan'] == '3') {
+    $jabatans = "Dashboard Penghuni.php";
+  } elseif ($_SESSION['jabatan'] == '2'){
+    $jabatans = "Dashboard ketua.php";
+  }
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,9 +27,12 @@
                 </div>
                 <div class="rectangle-190" >
                 </div>
+
+                <a href="<?= $jabatans ?>">
                 <svg class="vector" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M8 16L0 8L8 0L9.425 1.4L3.825 7H16V9H3.825L9.425 14.6L8 16Z" fill="white"/>
-                </svg>
+                </svg></a>
+
                 <div class="form-mingguan2" >
 Form Mingguan </div>
           </div>

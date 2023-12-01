@@ -1,8 +1,10 @@
 <?php 
-include('connect.php');
+session_start();
+require('../controller/connect.php');
+include('../controller/loginController.php');
 
 //id sesuaikan
-$id=2;
+$id=$_SESSION['id'];
 $tilawah = $_POST['tilawah'];
 $murajaah = $_POST['murajaah'];
 $puasasunnah = $_POST['puasasunnah'];

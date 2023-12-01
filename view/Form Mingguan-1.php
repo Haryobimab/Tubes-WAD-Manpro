@@ -1,6 +1,13 @@
 <?php
   session_start();
-  include('../controller/connect.php');
+  require('../controller/connect.php'); 
+  include('../controller/loginController.php');
+
+  if($_SESSION['jabatan'] == '3') {
+    $jabatans = "Dashboard Penghuni.php";
+  } elseif ($_SESSION['jabatan'] == '2'){
+    $jabatans = "Dashboard ketua.php";
+  }
 
 ?>
 
@@ -17,13 +24,13 @@
   <input type="submit" class="rectangle-1485" value="Berikutnya">
   
   <div class="rectangle-1480"></div>
-  <input name="tahajud" class="rectangle-23">
+  <input name="tahajud" class="rectangle-23" required>
   <div class="rectangle-1483"></div>
-  <input name="puasasunnah" class="rectangle-1484">
+  <input name="puasasunnah" class="rectangle-1484" required>
   <div class="rectangle-1481"></div>
-  <input name="murajaah" class="rectangle-1482">
+  <input name="murajaah" class="rectangle-1482" required>
   <div class="rectangle-14802"></div>
-  <input name="tilawah" class="rectangle-232">
+  <input name="tilawah" class="rectangle-232" required>
   
   <div class="catat-aktivitas-tahajud">Catat Aktivitas Tahajud</div>
   <div class="catat-aktivitas-puasa-sunnah">Catat Aktivitas Puasa Sunnah</div>
@@ -32,6 +39,8 @@
   <div class="rectangle-189"></div>
   <div class="rectangle-190"></div>
   <div class="form-mingguan2">Form Mingguan</div>
+
+  <a href="<?= $jabatans; ?>">
   <svg
     class="vector"
     width="16"
@@ -45,6 +54,7 @@
       fill="white"
     />
   </svg>
+  </a>
 </form>
 </body> 
 </html>

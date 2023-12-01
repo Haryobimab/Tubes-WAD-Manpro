@@ -1,3 +1,18 @@
+<?php
+  session_start();
+  require('../controller/connect.php'); 
+  include('../controller/loginController.php');
+
+  if($_SESSION['jabatan'] == '3') {
+    header('Location: Login.php');
+  } elseif ($_SESSION['jabatan'] == '2'){
+    $jabatans = "Dashboard ketua.php";
+  } elseif ($_SESSION['jabatan'] == '1'){
+    $jabatans = "Dashboard Pembina.php";
+  }
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,6 +44,8 @@
       <img class="ellipse-4" src="Image/Ellipse 4.png" />
     </div>
     <div class="admin">Admin</div>
+
+    <a href="<?= $jabatans ?>">
     <svg
       class="vector"
       width="16"
@@ -41,7 +58,7 @@
         d="M8 16L0 8L8 0L9.425 1.4L3.825 7H16V9H3.825L9.425 14.6L8 16Z"
         fill="white"
       />
-    </svg>
+    </svg></a>
   
     <div class="_24-x-7-access">24x7 Access</div>
     <div class="rectangle-1490"></div>

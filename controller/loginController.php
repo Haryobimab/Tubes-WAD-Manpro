@@ -1,6 +1,7 @@
 <?php
 
-include('../controller/connect.php');
+require('../controller/connect.php');
+
 
 if(isset($_POST['login'])){
 
@@ -10,17 +11,17 @@ if(isset($_POST['login'])){
     
     $query = "SELECT * FROM user WHERE username = '$name'";
     $result = mysqli_query($connect, $query);
-    $data = mysqli_fetch_assoc($result);
+    
 
     if(mysqli_num_rows($result) == 1) {
-    
+        $data = mysqli_fetch_assoc($result);
         if(password_verify($password, $data['password'])){
             $_SESSION['login'] = true;
             $_SESSION['id'] = $data['id'];
-            echo "pass aman";
             if ($data['jabatan'] == '1'){
                 $_SESSION['jabatan'] = $data['jabatan'];
                 header("Location: ../view/Dashboard Pembina.php");
+               
             }
 
             if ($data['jabatan'] == '2'){
@@ -31,6 +32,7 @@ if(isset($_POST['login'])){
             if ($data['jabatan'] == '3'){
                 $_SESSION['jabatan'] = $data['jabatan'];
                 header("Location: ../view/Dashboard Penghuni.php");
+                
             }
 
         }else{
