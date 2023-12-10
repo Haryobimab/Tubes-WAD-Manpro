@@ -1,5 +1,5 @@
 <?php
-header("Location:   view/Dashboard ketua.php");
+header("Location:   view/Login.php");
 
 
 ?>
