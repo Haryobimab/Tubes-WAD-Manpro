@@ -11,6 +11,12 @@
     $jabatans = "Dashboard Pembina.php";
   }
 
+  $id = $_SESSION['id'];
+
+  $query = "SELECT * FROM user WHERE id = '$id'";
+  $result = mysqli_query($connect, $query);
+  $data = mysqli_fetch_assoc($result);
+
 ?>
 
 <!DOCTYPE html>
@@ -67,7 +73,7 @@
     <a href="User Management Removal.php"><button  class="rectangle-1502" style="border: none;color: #ffffff;text-align: center;text-decoration: none;font: 700 14px 'Lora-Bold', sans-serif;">Hapus Anggota</button></a>
     
 
-    <div class="mr-irsyadul-basyar">Mr Irsyadul Basyar</div>
+    <div class="mr-irsyadul-basyar">Mr <?= $data['nama_lengkap'] ?></div>
     <img class="my-su-logo-05-1" src="Image/MySU logo-05.png" />
   </div>
   

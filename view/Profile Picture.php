@@ -46,7 +46,7 @@
   <!--Top Profile-->
   <img class="rectangle-1494" src="Image/Rectangle 1494.png" />
   <div class="rectangle-1495"></div>
-  <div class="irsyadul-basyar">Irsyadul Basyar</div>
+  <div class="irsyadul-basyar"><?= $data['nama_lengkap'] ?></div>
 
   <!--Change Profile-->
   <form action="../controller/gantifoto.php" method="POST">
