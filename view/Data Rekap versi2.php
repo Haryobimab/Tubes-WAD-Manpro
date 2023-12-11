@@ -1,3 +1,19 @@
+<?php
+  session_start();
+  require('../controller/connect.php'); 
+  include('../controller/loginController.php');
+
+  if($_SESSION['jabatan'] == '3') {
+    $jabatans = "Dashboard Penghuni.php";
+  } elseif ($_SESSION['jabatan'] == '2'){
+    $jabatans = "Dashboard ketua.php";
+  } elseif ($_SESSION['jabatan'] == '1'){
+    $jabatans = "Dashboard Pembina.php";
+  }
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -53,6 +69,8 @@
     <div class="data-recapitulation">
         <div class="rectangle-189"></div>
         <div class="rectangle-190"></div>
+
+        <a href="<?= $jabatans; ?>">
         <svg
           class="vector"
           width="16"
@@ -65,7 +83,7 @@
             d="M8 16L0 8L8 0L9.425 1.4L3.825 7H16V9H3.825L9.425 14.6L8 16Z"
             fill="white"
           />
-        </svg>
+        </svg></a>
       
         <div class="data-rekap">Data Rekap</div>
         

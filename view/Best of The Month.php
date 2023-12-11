@@ -1,3 +1,19 @@
+<?php
+  session_start();
+  require('../controller/connect.php'); 
+  include('../controller/loginController.php');
+
+  if($_SESSION['jabatan'] == '3') {
+    $jabatans = "Dashboard Penghuni.php";
+  } elseif ($_SESSION['jabatan'] == '2'){
+    $jabatans = "Dashboard ketua.php";
+  } elseif ($_SESSION['jabatan'] == '1'){
+    $jabatans = "Dashboard Pembina.php";
+  }
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,6 +33,8 @@
         <div class="beni-adam2">Beni Adam</div>
         <div class="abdul-qodir">Abdul Qodir</div>
         <div class="rectangle-1490"></div>
+
+        <a href="<?= $jabatans; ?>">
         <svg
           class="vector"
           width="16"
@@ -29,7 +47,7 @@
             d="M8 16L0 8L8 0L9.425 1.4L3.825 7H16V9H3.825L9.425 14.6L8 16Z"
             fill="white"
           />
-        </svg>
+        </svg></a>
       
         <img class="ellipse-6" src="Image/Ellipse 6.png" /><img
           class="ellipse-7"
