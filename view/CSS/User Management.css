@@ -1,0 +1,138 @@
+.user-management,
+.user-management * {
+  box-sizing: border-box;
+}
+.user-management {
+  background: #ffffff;
+  width: 360px;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-1492 {
+  background: #7bc74d;
+  width: 360px;
+  height: 800px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.subtract {
+  width: 325px;
+  height: 100px;
+  position: absolute;
+  left: 17px;
+  top: 31px;
+  overflow: visible;
+}
+.group-18 {
+  position: absolute;
+  inset: 0;
+}
+.ellipse-4 {
+  border-radius: 50%;
+  width: 64.52px;
+  height: 62.88px;
+  position: absolute;
+  left: 31px;
+  top: 43px;
+}
+.admin {
+  text-align: left;
+  font: 600 12px "Inter-SemiBold", sans-serif;
+  position: absolute;
+  left: 29px;
+  top: 109px;
+}
+.vector {
+  height: auto;
+  position: absolute;
+  right: 93.06%;
+  left: 2.5%;
+  width: 4.44%;
+  bottom: 96.12%;
+  top: 1.88%;
+  height: 2%;
+  overflow: visible;
+}
+._24-x-7-access {
+  color: #0047ff;
+  text-align: left;
+  font: 400 11px "Inter-Regular", sans-serif;
+  position: absolute;
+  left: 263px;
+  top: 106px;
+}
+.rectangle-1490 {
+  background: #ffffff;
+  border-radius: 20px 20px 0px 0px;
+  width: 360px;
+  height: 579px;
+  position: absolute;
+  left: calc(50% - 180px);
+  top: 221px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.rectangle-1501 {
+  background: #7bc74d;
+  border-radius: 5px;
+  width: 170px;
+  height: 55px;
+  position: absolute;
+  left: calc(50% - 85px);
+  top: 430px;
+}
+.tambah-anggota {
+  color: #ffffff;
+  text-align: center;
+  font: 700 16px "Lora-Bold", sans-serif;
+  position: absolute;
+  left: calc(50% - 64px);
+  top: 448px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-1502 {
+  background: #7bc74d;
+  border-radius: 5px;
+  width: 170px;
+  height: 55px;
+  position: absolute;
+  left: calc(50% - 85px);
+  top: 590px;
+
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  font: 700 14px 'Lora-Bold', sans-serif;
+}
+.hapus-anggota {
+  color: #ffffff;
+  text-align: center;
+  font: 700 16px "Lora-Bold", sans-serif;
+  position: absolute;
+  left: calc(50% - 58px);
+  top: 608px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mr-irsyadul-basyar {
+  color: #000000;
+  text-align: center;
+  font: 700 20px/21px "Nunito-Bold", sans-serif;
+  position: absolute;
+  left: 55px;
+  top: 64px;
+  width: 290px;
+  height: 22px;
+}
+.my-su-logo-05-1 {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  left: calc(50% - 60px);
+  top: 249px;
+}

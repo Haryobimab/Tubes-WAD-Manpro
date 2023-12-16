@@ -1,0 +1,199 @@
+.profile-picture,
+.profile-picture * {
+  box-sizing: border-box;
+}
+.profile-picture {
+  background: #f6f9ea;
+  width: 360px;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-1485 {
+  background: #7bc74d;
+  border-radius: 5px;
+  width: 111px;
+  height: 32px;
+  position: absolute;
+  left: calc(50% - 55px);
+  top: 733px;
+  color: #ffffff;
+  text-align: center;
+  font: 600 14px/19px "Nunito-Bold", sans-serif;
+}
+.kembali {
+  color: #ffffff;
+  text-align: center;
+  font: 700 14px "Lora-Bold", sans-serif;
+  position: absolute;
+  left: calc(50% - 27px);
+  top: 740px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-1496 {
+  background: #eeeeee;
+  border-radius: 5px;
+  width: 301px;
+  height: 387px;
+  position: absolute;
+  left: calc(50% - 150px);
+  top: 299px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.rectangle-1498 {
+  background: #f6f6f6;
+  border-radius: 8px;
+  width: 270px;
+  height: 64px;
+  position: absolute;
+  left: calc(50% - 135px);
+  top: 578px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #000000;
+  font: 600 14px/19px "Nunito-Bold", sans-serif;
+  border: none;
+}
+.alamat {
+  color: #7bc74d;
+  text-align: left;
+  font: 500 12px "Inter-Medium", sans-serif;
+  position: absolute;
+  right: 73.61%;
+  left: 13.33%;
+  width: 13.06%;
+  bottom: 27.75%;
+  top: 70.38%;
+  height: 1.88%;
+}
+.rectangle-14982 {
+  background: #f6f6f6;
+  border-radius: 8px;
+  width: 270px;
+  height: 37px;
+  position: absolute;
+  left: calc(50% - 135px);
+  top: 511px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.nomor-telepon {
+  color: #7bc74d;
+  text-align: left;
+  font: 500 12px "Inter-Medium", sans-serif;
+  position: absolute;
+  right: 60.56%;
+  left: 13.33%;
+  width: 26.11%;
+  bottom: 36.12%;
+  top: 62%;
+  height: 1.88%;
+}
+.rectangle-14983 {
+  background: #f6f6f6;
+  border-radius: 8px;
+  width: 270px;
+  height: 37px;
+  position: absolute;
+  left: calc(50% - 135px);
+  top: 444px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.email {
+  color: #7bc74d;
+  text-align: left;
+  font: 500 12px "Inter-Medium", sans-serif;
+  position: absolute;
+  right: 76.39%;
+  left: 13.33%;
+  width: 10.28%;
+  bottom: 44.5%;
+  top: 53.62%;
+  height: 1.88%;
+}
+.rectangle-1497 {
+  background: #f6f6f6;
+  border-radius: 8px;
+  width: 270px;
+  height: 37px;
+  position: absolute;
+  left: calc(50% - 135px);
+  top: 377px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+.nama-lengkap {
+  color: #7bc74d;
+  text-align: left;
+  font: 500 12px "Inter-Medium", sans-serif;
+  position: absolute;
+  right: 61.11%;
+  left: 13.33%;
+  width: 25.56%;
+  bottom: 53.37%;
+  top: 44.75%;
+  height: 1.88%;
+}
+.informasi-personal {
+  color: #000000;
+  text-align: center;
+  font: 700 16px/21px "Nunito-Bold", sans-serif;
+  position: absolute;
+  left: 45px;
+  top: 317px;
+}
+.rectangle-1494 {
+  width: 360px;
+  height: 227px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-1495 {
+  background: #7bc74d;
+  border-radius: 5px;
+  width: 171px;
+  height: 33px;
+  position: absolute;
+  left: 9px;
+  top: 181px;
+}
+.irsyadul-basyar {
+  color: #ffffff;
+  text-align: center;
+  font: 700 16px/21px "Nunito-Bold", sans-serif;
+  position: absolute;
+  left: 40px;
+  top: 187px;
+}
+.ellipse-4 {
+  border-radius: 50%;
+  width: 133px;
+  height: 133px;
+  position: absolute;
+  right: 19px;
+  top: 128px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.edit {
+  background: #7bc74d;
+  border-radius: 5px;
+  width: 52px;
+  height: 24px;
+  position: absolute;
+  left: 289px;
+  top: 237px;
+  color: #ffffff;
+  text-align: center;
+  font: 600 14px/19px "Nunito-Bold", sans-serif;
+}
+.edit2 {
+  color: #ffffff;
+  text-align: center;
+  font: 700 16px/21px "Nunito-Bold", sans-serif;
+  position: absolute;
+  left: 301px;
+  top: 238px;
+}
+
+
