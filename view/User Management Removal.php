@@ -22,7 +22,7 @@
     <link rel="stylesheet" type="text/css" href="CSS/User Management Removal.css">
 </head>
 <body>
-    <form action="" method="post" class="user-management-removal">
+    <div action="" method="post" class="user-management-removal">
         <div class="back-belakang"></div>
         <div class="back-depan"></div>
 
@@ -62,7 +62,72 @@
             fill="white"
           />
         </svg></a>
-    </form>
+  </div>
+
+  <h1 style="color:black;z-index: 1;position: absolute;left: -50px;top: 250px;">
+    <div class="container">
+                <table class="table">
+                    
+                    <tbody>
+                <?php
+
+              
+            include('../controller/connect.php');
+            // Buatlah query untuk mengambil data dari database (gunakan query SELECT)
+            $query = mysqli_query($connect, "SELECT * FROM user");
+            
+           
+
+            // Buatlah perkondisian dimana: 
+            // 1. a. Apabila ada data dalam database, maka outputnya adalah semua data dalam database akan ditampilkan 
+            //       (gunakan num_rows > 0, while, dan mysqli_fetch_assoc())
+            //    b. Untuk setiap data yang ditampilkan, buatlah sebuah button atau link yang akan mengarahkan web ke halaman 
+            //       form_detail_mobil.php dimana halaman tersebut akan menunjukkan seluruh data dari satu mobil berdasarkan id
+            // 2. Apabila tidak ada data dalam database, maka outputnya adalah pesan 'tidak ada data dalam tabel'
+
+            //<!--  **********************  1  **************************     -->
+            if($query){
+                while ($selects = mysqli_fetch_assoc($query)){
+
+                  if($selects['jabatan']=='1'){
+                    $jabatan='pembina';
+                  }
+                  elseif($selects['jabatan']=='2'){
+                    $jabatan='ketua';
+                  }
+                  elseif($selects['jabatan']=='3'){
+                    $jabatan='penghuni';}
+
+            ?>
+            <tr>
+    <td><?= $selects['foto_profil'] ?></td>
+    <td><?= $selects['name'] ?></td>
+    <td><?= $selects['username'] ?></td>
+    <td><?= $jabatan ?></td>
+    <td><a href="../controller/deleteUser.php?id=<?= $selects['id'] ?>" class="btn btn-primary">Hapus</a></td>
+</tr>
+
+            <?php
+                }
+            }
+            //<!--  **  1  **     -->
+
+            //<!--  **  2  **     -->
+            else {
+                echo"Tidak ada data di database";
+            }
+
+
+
+
+
+            //<!--  **  2  **     -->
+            ?>
+                </tbody>
+            </table>
+        </div>
+  
+  </h1>   
       
 </body>
 </html>
