@@ -49,25 +49,6 @@
   <div class="irsyadul-basyar"><?= $data['nama_lengkap'] ?></div>
 
   <!--Change Profile-->
-  <form action="../controller/gantifoto.php" method="POST">
-    <img class="ellipse-4" src="Image/Ellipse 4.png" />
-    <label class="edit">
-      <input type="file" name="file" style="display:none; cursor: pointer;">Edit
-    </label>
-    <input type="submit" value="Submit Foto" style="
-    background: #7bc74d;
-    border-radius: 5px;
-    width: 100px;
-    height: 37px;
-    border: none; 
-    color: #ffffff; 
-    text-align: center; 
-    text-decoration: none; 
-    font: 700 14px 'Lora-Bold', sans-serif;
-    position:relative; 
-    left: calc(50% - 49.5px); 
-    top: 700px;">
-  </form>
 </div>
 
 </body>
