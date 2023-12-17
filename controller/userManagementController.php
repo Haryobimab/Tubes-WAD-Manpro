@@ -25,7 +25,7 @@ if(isset($_POST['apply'])){
 
     if(mysqli_num_rows($result) == 0) {
     
-    $query2 = "INSERT INTO user (name, username, password, jabatan) VALUES ('$name', '$username', '$password', '$hakakses')";
+    $query2 = "INSERT INTO user (name, username, password, jabatan, nama_lengkap) VALUES ('$name', '$username', '$password', '$hakakses', '$nama')";
     $insert = mysqli_query($connect, $query2);
     echo 'berhasil';
         if($insert){
