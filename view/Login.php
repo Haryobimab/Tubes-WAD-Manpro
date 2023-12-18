@@ -1,42 +1,19 @@
 <?php
 
 session_start();
-
-// $host = "localhost:3307";
-// $user = "root";
-// $pass = "";
-// $db = "mysu";
-// $connect = mysqli_connect($host, $user, $pass, $db);  
-    
-
-// if($connect->connect_error) {
-//     die("Connection failed: " . $connect->connect_error);
-//   }else{
-//       echo "lesgo";
-//   }
-// // 
- 
-// require ' ../controller/connect.php';
 include('../controller/loginController.php');
 
+if (isset($_SESSION['jabatan'])){
+        if ($_SESSION['jabatan'] == '1'){
+                header('Location: Dashboard Pembina.php');
+        } elseif ($_SESSION['jabatan'] == '2'){
+                header('Location: Dashboard ketua.php');
+        } elseif ($_SESSION['jabatan'] == '3') {
+                   header('Location: Dashboard Penghuni.php');
+        }
+}
 
-
-
-// require '../controller/LoginController.php';
-
-// if (isset($_COOKIE['id'])) {
-//         rememberMe($_COOKIE);
-//     }
-    
-//     if($_SERVER['REQUEST_METHOD'] == "POST") {
-//         login($_POST);
-//     }
-    
-//     if (isset($_SESSION['login'])) {
-//         header("Location: Dashboard Penghuni.php");
-//     }
-    
-    ?>
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -58,8 +35,8 @@ include('../controller/loginController.php');
               </defs>
         </svg>
         <form method="post" action="login.php">
-                <input type="text" name='name' class="rectangle-21">
-                <input type='password' name='password' class="rectangle-22">
+                <input type="text" name='username' class="rectangle-21" required>
+                <input type='password' name='password' class="rectangle-22" required>
                 <div class="username"></div>
                 <div class="password"></div>
                 <div class="login2">Login </div>

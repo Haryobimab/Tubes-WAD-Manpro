@@ -1,15 +1,10 @@
-<!-- File ini berisi koneksi dengan database MySQL -->
-<?php 
-
-$host = "localhost:3306";
+<?php
+$host = "localhost";
 $user = "root";
 $pass = "";
-$db = "mysu";
-$connect = mysqli_connect($host, $user, $pass, $db);  
-    
+$db = "tugasbesarwad";
+$connect = mysqli_connect($host, $user, $pass, $db);
 
-if($connect->connect_error) {
+if ($connect->connect_error) {
     die("Connection failed: " . $connect->connect_error);
   }
-// 
-?>

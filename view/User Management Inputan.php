@@ -1,6 +1,15 @@
 <?php
+  session_start();
+  require('../controller/connect.php'); 
+  include('../controller/loginController.php');
 
-include('../controller/UserManagementController.php');
+  if($_SESSION['jabatan'] == '3') {
+    header('Location: Login.php');
+  } elseif ($_SESSION['jabatan'] == '2'){
+    $jabatans = "Dashboard ketua.php";
+  } elseif ($_SESSION['jabatan'] == '1'){
+    $jabatans = "Dashboard Pembina.php";
+  }
 
 ?>
 
@@ -13,7 +22,7 @@ include('../controller/UserManagementController.php');
     <link rel="stylesheet" type="text/css" href="CSS/User Management Inputan.css">
 </head>
 <body>
-    <form action="../controller/UserManagementController.php" method="post" class="user-management-input">
+    <form action="../controller/userManagementController.php" method="post" class="user-management-input">
         <div class="rectangle-1492"></div>
         <svg
           class="subtract"
@@ -35,6 +44,8 @@ include('../controller/UserManagementController.php');
           <img class="ellipse-4" src="Image/Ellipse 4.png" />
         </div>
         <div class="admin">Admin</div>
+
+        <a href="<?= $jabatans ?>">
         <svg
           class="vector"
           width="16"
@@ -48,23 +59,24 @@ include('../controller/UserManagementController.php');
             fill="white"
           />
         </svg>
+        </a>
       
         <div class="_24-x-7-access">24x7 Access</div>
         <div class="rectangle-1490"></div>
         <div class="mr-irsyadul-basyar">Mr Irsyadul Basyar</div>
-        <input name="name" class="rectangle-1497">
+        <input name="nama" class="rectangle-1497" required>
         <div class="nama-lengkap">Nama Lengkap*</div>
-        <select name="jabatan" class="rectangle-14972">
+        <select name="hakakses" class="rectangle-14972" required>
           <option value="Penghuni">Penghuni</option>
           <option value="Pembina">Pembina</option>
           <option value="Ketua">Ketua</option>
         </select>
         <div class="hak-akses">Hak Akses*</div>
-        <input name="username" class="rectangle-14973">
+        <input name="username" class="rectangle-14973" required>
         <div class="username">Username*</div>
-        <input name="password" class="rectangle-14974">
+        <input name="password" class="rectangle-14974" required> 
         <div class="password">Password*</div>
-        <input type="submit" name="apply" value="Apply" class="rectangle-1485" style="border: none; color: #ffffff; text-align: center; text-decoration: none; font: 700 14px 'Lora-Bold', sans-serif;">
+        <input type="submit" value="Apply" name="apply" class="rectangle-1485" style="border: none; color: #ffffff; text-align: center; text-decoration: none; font: 700 14px 'Lora-Bold', sans-serif;">
         
 </form>
       
