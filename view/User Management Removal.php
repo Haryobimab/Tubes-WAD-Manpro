@@ -20,6 +20,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="CSS/User Management Removal.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <style>
+        .container {
+            max-width: 70%;
+        }
+
+        .table {
+            font-size: 14px;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
     <div action="" method="post" class="user-management-removal">
