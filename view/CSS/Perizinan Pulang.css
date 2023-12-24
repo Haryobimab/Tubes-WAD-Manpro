@@ -1,0 +1,51 @@
+.perizinan-pulang,
+.perizinan-pulang * {
+  box-sizing: border-box;
+}
+.perizinan-pulang {
+  width: 360px;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-189 {
+  background: #f8ffdb;
+  width: 360px;
+  height: 900px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-190 {
+  background: #7bc74d;
+  width: 360px;
+  height: 95px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+
+.rectangle-1508 {
+    background: #fefefe;
+    border-radius: 5px;
+    width: 331px;
+    height: 550px;
+    position: absolute;
+    left: calc(50% - 165px);
+    top: 207px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.title {
+  color: #ffffff;
+  text-align: center;
+  font: 700 20px "Inter-Bold", sans-serif;
+  position: absolute;
+  left: calc(50% - 78px);
+  bottom: 92.38%;
+  top: 4.25%;
+  height: 3.38%;
+  width: 157px;
+}
