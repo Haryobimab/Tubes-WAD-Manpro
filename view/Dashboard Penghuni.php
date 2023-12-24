@@ -12,9 +12,7 @@ $data = mysqli_fetch_assoc($result);
 if (!isset($_SESSION['login'])) {
     header("Location: login.php");
   }
-
 if ($_SESSION['jabatan'] == '3'){
-
 }   else {
     header('Location: Login.php');
 }
@@ -28,6 +26,7 @@ if ($_SESSION['jabatan'] == '3'){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="CSS/Dashboard Penghuni.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div
@@ -49,6 +48,9 @@ if ($_SESSION['jabatan'] == '3'){
   <a href="Best of The Month.php">
   <div class="rectangle-1477"></div></a>
 
+  <!--Rectangle Perizinan Pulang-->
+  <a href="Perizinan Pulang.php">
+  <div class="rectangle-1478"></div></a>
 
   <img
     class="_1643042273358-removebg-preview-3"
@@ -123,6 +125,23 @@ if ($_SESSION['jabatan'] == '3'){
     </svg>
   </div>
   <div class="penghuni-terbaik">Penghuni Terbaik</div></a>
+
+    <!--Form Perizinan Pulang-->
+  <a href="Perizinan Pulang.php">
+  <div class="form-perizinan-pulang">
+  <svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    height="24" width="27" viewBox="0 0 512 512">
+    <path d="M64 256V160H224v96H64zm0 64H224v96H64V320zm224 96V320H448v96H288zM448 256H288V160H448v96zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z"/>
+  </svg>
+      <path
+        d="M12.3969 1.52687C12.8877 0.730041 13.1331 0.333374 13.5 0.333374C13.8668 0.333374 14.1122 0.730041 14.6031 1.52687L14.7296 1.73221C14.8691 1.95854 14.9389 2.07054 15.0474 2.14521C15.1572 2.21987 15.2928 2.24787 15.5641 2.30271L15.8095 2.35404C16.7627 2.54887 17.2394 2.64571 17.353 2.97471C17.4667 3.30487 17.1412 3.64787 16.4915 4.33387L16.3236 4.51121C16.1389 4.70604 16.0459 4.80287 16.0045 4.92421C15.9632 5.04554 15.9774 5.17504 16.0045 5.43521L16.0304 5.67204C16.1285 6.58787 16.1776 7.04637 15.8818 7.24937C15.5847 7.45354 15.1378 7.26687 14.2453 6.89587L14.0154 6.80021C13.7609 6.69521 13.6343 6.64154 13.5 6.64154C13.3656 6.64154 13.2391 6.69521 12.9846 6.80021L12.7547 6.89587C11.8621 7.26687 11.4152 7.45354 11.1181 7.24937C10.8211 7.04637 10.8714 6.58787 10.9696 5.67204L10.9954 5.43521C11.0226 5.17504 11.0368 5.04554 10.9954 4.92421C10.9541 4.80404 10.8611 4.70604 10.6764 4.51121L10.5085 4.33387C9.85877 3.64787 9.53327 3.30487 9.64694 2.97471C9.7606 2.64571 10.2372 2.54887 11.1905 2.35404L11.4359 2.30271C11.7071 2.24787 11.8428 2.22104 11.9526 2.14521C12.0611 2.07054 12.1308 1.95854 12.2703 1.73221L12.3969 1.52687ZM14.7916 9.66671H12.2083C10.3819 9.66671 9.46869 9.66671 8.90165 10.18C8.33331 10.691 8.33331 11.5159 8.33331 13.1667V23.6667H18.6666V13.1667C18.6666 11.517 18.6666 10.6922 18.0983 10.18C17.5326 9.66671 16.6194 9.66671 14.7916 9.66671Z"
+        fill="black"
+      />
+    </svg>
+  </div>
+  <div class="perizinan-pulang">Perizinan Pulang</div>
+  </a>
 
 
   <img class="my-su-logo-05-1" src="Image/MySU logo-05.png" />

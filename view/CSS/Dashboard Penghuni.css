@@ -66,6 +66,18 @@
   top: 411px;
   box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.2);
 }
+
+.rectangle-1478 {
+  background: #ffffff;
+  border-radius: 4px;
+  width: 246px;
+  height: 44px;
+  position: absolute;
+  left: calc(50% - 124px);
+  top: 478px;
+  box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
 ._1643042273358-removebg-preview-3 {
   width: 57px;
   height: 42px;
@@ -138,6 +150,16 @@
   top: 417px;
   overflow: hidden;
 }
+
+.form-perizinan-pulang {
+  width: 31px;
+  height: 28px;
+  position: absolute;
+  left: 71px;
+  top: 487px;
+  overflow: hidden;
+}
+
 .group {
   height: auto;
   position: absolute;
@@ -159,6 +181,18 @@
   width: 123px;
   height: 27px;
 }
+
+.perizinan-pulang{
+  color: #000000;
+  text-align: left;
+  font: 700 14px/21px "Lora-Bold", sans-serif;
+  position: absolute;
+  left: 126px;
+  top: 488px;
+  width: 123px;
+  height: 27px;
+}
+
 .my-su-logo-05-1 {
   width: 74px;
   height: 74px;

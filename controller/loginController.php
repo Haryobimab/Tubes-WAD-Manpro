@@ -9,13 +9,18 @@ if(isset($_POST['login'])){
     $password = $_POST['password'];
 
     
-    $query = "SELECT * FROM user WHERE username = '$name'";
+    $query = "SELECT * FROM user WHERE name = '$name'";
     $result = mysqli_query($connect, $query);
     
 
+    //user found
     if(mysqli_num_rows($result) == 1) {
+
+        //check password
         $data = mysqli_fetch_assoc($result);
+        
         if(password_verify($password, $data['password'])){
+
             $_SESSION['login'] = true;
             $_SESSION['id'] = $data['id'];
             if ($data['jabatan'] == '1'){

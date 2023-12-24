@@ -98,8 +98,10 @@ if ($_SESSION['jabatan'] == '1'){
 
   <!--Rectangle Penghuni Terbaik-->
   <a href="Best of The Month.php"><div class="rectangle-1478"></div></a>
-    <!--Rectangle Data Rekap-->
+  <!--Rectangle Data Rekap-->
   <a href="Data Rekap versi2.php"><div class="rectangle-1479"></div></a>
+  <!--Rectangle Form Perizinan Pulang-->
+  <a href="Status Perizinan.php"><div class="rectangle-1480"></div></a>
 
   <!--Penghuni Terbaik-->
   <a href="Best of The Month.php">
@@ -155,6 +157,16 @@ if ($_SESSION['jabatan'] == '1'){
     </svg>
   </div>
   <div class="data-rekap">Data Rekap</div>
+  </a>
+    <!--Update Form Perizinan Pulang-->
+    <a href="Status Perizinan.php">
+  <div class="form-updt-perizinan-pulang">
+  <svg 
+    xmlns="http://www.w3.org/2000/svg" height="20" width="24" viewBox="0 0 512 512">
+    <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+  </svg>
+  </div>
+  <div class="perizinan-pulang-updt">Update perizinan</div>
   </a>
 
   <!--Logout-->

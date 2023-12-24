@@ -148,6 +148,17 @@
   top: 491px;
   box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.2);
 }
+.rectangle-1480 {
+  background: #ffffff;
+  border-radius: 4px;
+  width: 246px;
+  height: 44px;
+  position: absolute;
+  left: calc(50% - 123px);
+  top: 560px;
+  box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
 .solar-ranking-bold-duotone {
   width: 31px;
   height: 28px;
@@ -167,6 +178,7 @@
   height: 83.33%;
   overflow: visible;
 }
+
 .penghuni-terbaik {
   color: #000000;
   text-align: left;
@@ -225,6 +237,26 @@
   align-items: center;
   justify-content: center;
 }
+.form-updt-perizinan-pulang {
+  width: 31px;
+  height: 28px;
+  position: absolute;
+  left: 71px;
+  top: 570px;
+  overflow: hidden;
+}
+
+.perizinan-pulang-updt{
+  color: #000000;
+  text-align: left;
+  font: 700 14px/21px "Lora-Bold", sans-serif;
+  position: absolute;
+  left: 127px;
+  top: 572px;
+  width: 123px;
+  height: 27px;
+}
+
 .my-su-logo-05-1 {
   width: 74px;
   height: 74px;
