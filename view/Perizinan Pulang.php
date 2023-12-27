@@ -117,6 +117,7 @@ $id=$_SESSION['id'];
             <tbody>
                 <?php
                 include('../controller/connect.php');
+                // Melakukan penampilan form request yang diminta dari penghuni
                 $id=$_SESSION['id'];
                 $query = mysqli_query($connect, "SELECT * FROM perizinan_pulang WHERE id = '$id'");
 
@@ -161,9 +162,11 @@ $id=$_SESSION['id'];
   
   
 </body>
+    <!-- Membuat inputan untuk melakukan delete form -->
     <div class="titlepulang">Silahkan Masukan ID</div>
     <input name="id_pulang" class="rectangle-1560">
     <input type="submit" name="delete_form" value="Delete Form" class="rectangle-1510" style="left: 122px;">
+    <!-- Membuat inputan untuk membuat form perizinan baru -->
     <input name="id_izin" value= <?= $id_perizinan ?>>
     <input type="submit" name="new_form" value="Buat Form Baru" class="rectangle-1509" style="left: 122px;">
 </html>

@@ -82,6 +82,7 @@
   <div class="rectangle-1508"></div>
   <h1 style="color:black;z-index: 1;position: absolute;right: 130px;top: 250px;">
     <div class="container">
+      <!-- Menampilkan id request form perizinan pulang -->
       <table class="table">
         <tbody>
             <?php

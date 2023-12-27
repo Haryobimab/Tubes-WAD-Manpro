@@ -51,6 +51,7 @@ $id=$_SESSION['id'];
 
 </head>
 <body>
+    <!-- Setting Controller untuk status -->
     <form action="../controller/testcontroller.php"  method="post"
 
 
@@ -66,6 +67,7 @@ $id=$_SESSION['id'];
 
     <h1 style="color:black;z-index: 1;position: absolute;left: -50px;top: 250px;">
         <div class="container">
+            <!-- Menampilkan data yang status nya masih menunggu / waiting -->
         <table class="table">
                 <thead>
                     <tr>
@@ -80,6 +82,7 @@ $id=$_SESSION['id'];
                     <?php
                     include('../controller/connect.php');
                     $id=$_SESSION['id'];
+                    // Query yang dipakai akan memilih dari status id yaitu id no 3
                     $query = mysqli_query($connect, "SELECT * FROM perizinan_pulang WHERE id_perizinan = '3'");
 
                     if($query){
@@ -122,7 +125,7 @@ $id=$_SESSION['id'];
     </h1>
     
 </body>
-
+    <!-- membuat form untuk mendapatkan id = -->
     <form action="../controller/testcontroller.php"  method="post">
         <div class="idtitle">Silahkan Masukan ID </div>
         <textarea name="id_perizinan" class="rectangle-15062"></textarea>

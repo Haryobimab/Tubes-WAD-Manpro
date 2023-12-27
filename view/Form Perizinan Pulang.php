@@ -40,6 +40,7 @@
     />
   </svg></a>
 
+  <!-- memberikan box inputan data untuk form perizinan pulang -->
   <div class="title">Form Perizinan Pulang</div>
   <div class="rectangle-1508"></div>
 
@@ -56,6 +57,7 @@
   <textarea name="alasan" class="rectangle-15062"></textarea>
 
 
+  <!--  inout untuk mengirim data kedalam database-->
  <input type="submit" value="save" name="save" class="rectangle-1509" style="left: 122px;">
 
 </form>

@@ -7,7 +7,7 @@
         echo $id;
     }
     
-
+    // Melakukan perpindahan page php 1 ke page php lainnya.
     header('Location: ../view/Update Status Perizinan.php');
 
     

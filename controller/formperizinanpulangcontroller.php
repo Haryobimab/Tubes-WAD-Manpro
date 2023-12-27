@@ -17,6 +17,7 @@ if(isset($_POST['save'])){
 
 
 
+    // Query untuk melakukan inputan pada table perizinan pulang
     $query3 = "INSERT INTO `perizinan_pulang` (`id_pulang`, `nama`, `alamat`, `no_telp`, `alasan`, `id`, `tanggal`, `id_perizinan`)
      VALUES (NULL, '$nama', '$alamat', '$no_telp', '$alasan', '$id', current_timestamp(), '3');";
 

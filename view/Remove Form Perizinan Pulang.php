@@ -2,13 +2,6 @@
   session_start();
   require('../controller/connect.php'); 
   include('../controller/loginController.php');
-
-//   if($_SESSION['jabatan'] == '3') {
-//     $jabatans = "Dashboard Penghuni.php";
-//   } elseif ($_SESSION['jabatan'] == '2'){
-//     $jabatans = "Dashboard ketua.php";
-//   }
-
 ?>
 
 <!DOCTYPE html>
@@ -73,11 +66,10 @@
           <?php
             include('../controller/connect.php');
 
+            //Melakukan get id menggunakan cara $_SESSION
             $id = $_SESSION['dataid'];
-            // echo $id;
-            // print $id;
 
-            $query =  "SELECT * FROM perizinan_pulang WHERE id_pulang = '$id'"; // <============= ID nya masih static
+            $query =  "SELECT * FROM perizinan_pulang WHERE id_pulang = '$id'";
             
             $result = $connect -> query($query);
 
@@ -111,6 +103,7 @@
             <td> Status : <?= $id_perizinan ?></td>        
           </tr>
           <tr>
+            <!-- Menambahkan text link untuk melakukan delete suatu form & mengirimkan id form -->
             <td><a href="../controller/removeperizinanpulangcontroller.php?id=<?= $row['id_pulang'] ?>" class="btn-delete">Delete</a></td>
           </tr>
           <?php
